@@ -1,0 +1,55 @@
+{
+  "name": "@howbizarre/starter-template-vue-bootstrap-sass-typescript",
+  "version": "1.1.5",
+  "description": "This boilerplate is based on Vue 3 with Bootstrap 5. TypeScript support. New Bootstrap 5 feature for Dark and Light theme. Bootstrap Icons and Vue Router have also been added.",
+  "homepage": "https://bizarre.how/vue-bootstrap/",
+  "license": "CC-BY-4.0",
+  "repository": "github:@howbizarre/starter-template-vue-bootstrap-sass-typescript",
+  "author": "How Bizarre <how.bizarre@gmail.com>",
+  "keywords": [
+    "vue",
+    "bootstrap",
+    "typescript",
+    "boilerplate",
+    "template",
+    "javascript",
+    "vuejs",
+    "node",
+    "component",
+    "starter",
+    "vue3",
+    "bootstrap5",
+    "sass",
+    "theme",
+    "dark",
+    "dark theme",
+    "vue 3",
+    "bootstrap 5"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build --base=/vue-bootstrap",
+    "type-check": "vue-tsc --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.3",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/node": "^20.2.5",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.58.3",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.11",
+    "vue-tsc": "^2.0.6"
+  },
+  "type": "module"
+}

@@ -1,0 +1,36 @@
+// $primary: #EF8B77;
+// $secondary: #0E4B66;
+// $success: 
+// $info: 
+// $warning: 
+// $danger: #FBFBFB
+// $light: #FBFBFB;
+
+// $navbg: #E8E8E8;
+// $blueButton: #B0DCDE;
+// $redButton: #dd4141;
+
+$colors: (
+    krevet: #EF8B77,
+    main1: #0E4B66,
+    main2: #F2F2F2,
+    nav: #E8E8E8,
+    blueButton: #B0DCDE,
+    redButton: #dd4141,
+);
+
+@each $color-name, $color-value in $colors {
+    .bg-#{$color-name} {
+        background-color: $color-value;
+    }
+}
+
+@each $color-name, $color-value in $colors {
+    .border-color-#{$color-name} {
+        border-color: $color-value;
+    }
+}
+
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
