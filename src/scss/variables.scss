@@ -17,6 +17,7 @@ $colors: (
     nav: #E8E8E8,
     blueButton: #B0DCDE,
     redButton: #dd4141,
+    textc: #134C67,
 );
 
 @each $color-name, $color-value in $colors {

@@ -8,25 +8,28 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Сервисы и услуги</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Информация</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Бриз Бонус</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Пассажирам</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Бизнесу</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <hr class="custom-hr bg-main1 border-color-main1 your-element" />
+    <hr class="custom-hr bg-main1 border-color-main1" />
 </template>
 
 <script lang="ts" setup>
@@ -49,14 +52,16 @@ ul {
     margin-top: 0;
     border-width: 8px;
     opacity: 1;
+    position: relative;
+    z-index: 9999;
 }
 
 .custom-div {
     height: 85px;
 }
 
-.your-element {
-    position: relative;
-    z-index: 9999;
+.nav-link {
+    color: textc;
+    font-weight: 600;
 }
 </style>
