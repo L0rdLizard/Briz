@@ -4,7 +4,7 @@
             src="/airplane.png" alt="Photo by Irene Dávila">
     </div>
 
-    <div class="container p-5 bg-body mt-md-n6 position-relative rounded shadow" style="margin-top: -300px;">
+    <div class="container p-5 bg-body mt-md-n6 position-relative rounded shadow bg-main2" style="margin-top: -300px; margin-bottom: 1000px;">
         <div class="row">
             <div class="col-md-4 text-center align-self-center">
                 <div class="lc-block border-lg-end border-2 ">
