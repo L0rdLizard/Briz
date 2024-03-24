@@ -1,14 +1,13 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top">
         <div class="container custom-div">
             <a class="navbar-brand" href="#">
                 <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
+
+
+            <!-- d-flex justify-content-center align-items-center -->
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
                         <a class="nav-link active" aria-current="page" href="#">Сервисы и услуги</a>
@@ -25,11 +24,43 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link" href="#">Бизнесу</a>
                     </li>
+                    <li class="nav-item mx-3">
+
+                    </li>
                 </ul>
+
+                <div class="navbar-right mx-3 justify-content-end">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p><i class="fas fa-phone"></i> Call-центр: +7 (901) 453 53 82</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="nav-item col" style="white-space: nowrap;">
+                            <a class="nav-link" href="#">Личный кабинет</a>
+                        </div>
+                        <div class="nav-item col" style="margin-top: -6px;">
+                            <select class="form-select" aria-label="Выбор языка">
+                                <option selected>RU</option>
+                                <option value="1">EN</option>
+                                <option value="2">DE</option>
+                                <option value="3">FR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+        <hr class="custom-hr bg-main1 border-color-main1" />
     </nav>
-    <hr class="custom-hr bg-main1 border-color-main1" />
+
 </template>
 
 <script lang="ts" setup>
@@ -57,11 +88,68 @@ ul {
 }
 
 .custom-div {
-    height: 85px;
+    min-height: 85px;
 }
 
 .nav-link {
     color: textc;
     font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    // .navbar-right {
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    // .nav-item {
+    //     margin: 10px 0;
+    // }
+
+    // .custom-div {
+    //     height: auto;
+    // }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    // .custom-div {
+    //     height: auto;
+    // }
+}
+
+@media (max-width: 550px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    // .custom-div {
+    //     height: auto;
+    // }
 }
 </style>

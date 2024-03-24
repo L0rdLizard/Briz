@@ -1,7 +1,7 @@
 <template>
     <Nav />
 
-    <Hero />
+
     <!-- <TestHero /> -->
 
 
@@ -9,9 +9,9 @@
         <Heads>template based on Vue 3, Bootstrap 5, SASS with Dark Theme and Typescript!</Heads>
     </header> -->
 
-    <!-- <main class="container flex-shrink-0 mb-4">
+    <main class="flex-shrink-0 mb-4">
         <router-view />
-    </main> -->
+    </main>
 
     <footer class="container footer mb-2 mt-auto custom-footer">
         <Footer />
@@ -28,7 +28,7 @@ import Hero from "@/components/Hero.vue"
 </script>
 
 <style lang="scss" scoped>
-.custom-footer{
+.custom-footer {
     background-color: #F2F2F2;
 }
 </style>
