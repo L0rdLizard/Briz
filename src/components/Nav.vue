@@ -5,53 +5,50 @@
                 <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
             </a>
 
-
             <!-- d-flex justify-content-center align-items-center -->
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse custom-div2" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="#">Сервисы и услуги</a>
+                        <a class="nav-link active inter-400" aria-current="page" href="#">Сервисы и
+                            услуги</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Информация</a>
+                        <a class="nav-link inter-400" href="#">Информация</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Бриз Бонус</a>
+                        <a class="nav-link inter-400" href="#">Бриз Бонус</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Пассажирам</a>
+                        <a class="nav-link inter-400" href="#">Пассажирам</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Бизнесу</a>
-                    </li>
-                    <li class="nav-item mx-3">
-
+                        <a class="nav-link inter-400" href="#">Бизнесу</a>
                     </li>
                 </ul>
 
-                <div class="navbar-right mx-3 justify-content-end">
-                    <div class="row">
-                        <div class="col-sm">
-                            <p><i class="fas fa-phone"></i> Call-центр: +7 (901) 453 53 82</p>
+                <div class="col navbar-right d-flex justify-content-end">
+                    <div class="mx-3">
+                        <div class="row">
+                            <div class="col-sm">
+                                <p><i class="fas fa-phone"></i>Call-центр: <a href="tel:+79014535382">+7 (901) 453 53 82</a></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="nav-item col" style="white-space: nowrap;">
-                            <a class="nav-link" href="#">Личный кабинет</a>
-                        </div>
-                        <div class="nav-item col" style="margin-top: -6px;">
-                            <select class="form-select" aria-label="Выбор языка">
-                                <option selected>RU</option>
-                                <option value="1">EN</option>
-                                <option value="2">DE</option>
-                                <option value="3">FR</option>
-                            </select>
+                        <div class="row">
+                            <div class="nav-item col" style="white-space: nowrap;">
+                                <a class="nav-link" href="#">Личный кабинет</a>
+                            </div>
+                            <div class="nav-item col" style="margin-top: -6px;">
+                                <select class="form-select" aria-label="Выбор языка">
+                                    <option selected>RU</option>
+                                    <option value="1">EN</option>
+                                    <option value="2">DE</option>
+                                    <option value="3">FR</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,28 +88,19 @@ ul {
     min-height: 85px;
 }
 
+.custom-div2 {
+    margin-left: 100px;
+}
+
 .nav-link {
-    color: textc;
+    color: #134C67;
     font-weight: 600;
 }
 
 @media (max-width: 1200px) {
-    .navbar {
-        flex-direction: column;
+    .custom-div2 {
+        margin-left: 0px;
     }
-
-    // .navbar-right {
-    //     display: flex;
-    //     justify-content: space-between;
-    // }
-
-    // .nav-item {
-    //     margin: 10px 0;
-    // }
-
-    // .custom-div {
-    //     height: auto;
-    // }
 }
 
 @media (max-width: 800px) {
