@@ -4,9 +4,10 @@
             src="/airplane.png" alt="Photo by Irene Dávila">
     </div>
 
-    <div class="container p-5 bg-body mt-md-n6 position-relative rounded shadow bg-main2 custom-div"
+    <div class="container p-5 bg-body mt-md-n6 position-relative rounded-4 shadow bg-main2 custom-div"
         style="margin-bottom: 100px;">
-        <div class="row">
+
+        <!-- <div class="row">
             <div class="col-md-4 text-center align-self-center">
                 <div class="lc-block border-lg-end border-2 ">
                     <div editable="rich">
@@ -21,24 +22,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- <div class="row">
-            <div class="col-md-9 offset-md-1">
-                <div class="lc-block mt-5">
-                    <div editable="rich">
-                        <p class="lead text-secondary"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et
-                            metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat. In
-                            pellentesque scelerisque auctor.&nbsp;</p>
-                        <p class="lead text-secondary">Ut porta lacus eget nisi fermentum lobortis. Vestibulum facilisis
-                            tempor
-                            ipsum, ut rhoncus magna ultricies laoreet. Proin vehicula erat eget libero accumsan iaculis.
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div> -->
-    </div>
 
+
+
+    </div>
 </template>
 
 
