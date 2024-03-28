@@ -56,9 +56,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="fixed-top" style="position: absolute; bottom: 0;">
+        <!-- <div class="" style="position: absolute; bottom: 0;">
             <hr class="custom-hr bg-main1 border-color-main1" />
-        </div>
+        </div> -->
     </nav>
 
 
