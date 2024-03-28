@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid g-0">
-        <img style="margin-top: 0px; object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7"
+        <img style="margin-top: -200px; object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7"
             src="/airplane.png" alt="Photo by Irene Dávila">
     </div>
 

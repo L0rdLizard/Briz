@@ -1,5 +1,5 @@
 <template>
-  <hr class="custom-hr bg-main1 border-color-main1" />
+  <!-- <hr class="custom-hr bg-main1 border-color-main1" /> -->
   <div class="py-3 d-flex justify-content-between align-items-center bg-main2">
     <section>
       <Refs /> <a href="https://github.com/L0rdLizard" class="text-decoration-none" title="Starter by How Bizarre">L0rdLizard</a>

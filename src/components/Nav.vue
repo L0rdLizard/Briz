@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top" style="position: relative;">
         <div class="container custom-div">
             <a class="navbar-brand" href="#">
                 <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
@@ -30,7 +30,8 @@
                     <div class="mx-3">
                         <div class="row">
                             <div class="col-sm">
-                                <p><i class="fas fa-phone"></i>Call-центр: <a href="tel:+79014535382">+7 (901) 453 53 82</a></p>
+                                <p><i class="fas fa-phone"></i>Call-центр: <a href="tel:+79014535382">+7 (901) 453 53
+                                        82</a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -55,8 +56,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <hr class="custom-hr bg-main1 border-color-main1" />
+        <div class="fixed-top" style="position: absolute; bottom: 0;">
+            <hr class="custom-hr bg-main1 border-color-main1" />
+        </div>
     </nav>
+
+
 
 </template>
 
@@ -69,6 +74,21 @@ const siteUrl = import.meta.env.VITE_BUILD_ADDRESS;
 const router = useRouter();
 const activeRoute = computed(() => router.currentRoute.value.path);
 const isActive = (path: string) => path === activeRoute.value;
+
+// window.addEventListener('resize', adjustTopMargin);
+
+// function adjustTopMargin() {
+//     var navbar = document.querySelector('.navbar') as HTMLElement;
+//     if (navbar) {
+//         var navbarHeight = navbar.offsetHeight;
+//         var hrElement = document.querySelector('.custom-hr') as HTMLElement;
+//         if (hrElement) {
+//             hrElement.style.marginTop = navbarHeight + 'px';
+//         }
+//     }
+// }
+// adjustTopMargin();
+
 </script>
 
 <style lang="scss" scoped>
@@ -80,7 +100,7 @@ ul {
     margin-top: 0;
     border-width: 8px;
     opacity: 1;
-    position: relative;
+    // position: relative;
     z-index: 9999;
 }
 
