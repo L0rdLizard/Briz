@@ -16,24 +16,7 @@
             </div>
         </div>
 
-        <!-- <div class="menu2 col-8 square-container rounded-5 p-1">
-            <div class="dropdown">
-                <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Меню
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <label class="dropdown-item" for="btnradio1">Купить билет</label>
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
 
-                    <label class="dropdown-item" for="btnradio2">Онлайн-регистрация</label>
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-
-                    <label class="dropdown-item" for="btnradio3">Управление бронированием</label>
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                </div>
-            </div>
-        </div> -->
 
         <button type="button" class="btn btn-outline-primary col-5 square-container rounded-5 menu2" data-toggle="modal"
             data-target="#myModal">
