@@ -38,7 +38,7 @@ import TabSelector from "@/components/TabSelector.vue";
 
 <style lang="scss" scoped>
 .custom-div {
-    height: 282px;
+    min-height: 282px;
 }
 
 

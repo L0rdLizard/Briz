@@ -1,72 +1,98 @@
 <template>
-    <div class="row m-0">
+    <div class="col">
+        <div class="row m-0">
+            <div class="col-9 square-container rounded-5 p-1 menu1">
+                <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item" for="btnradio1">Купить
+                        билет</label>
 
-        <div class="col-8 square-container rounded-5 p-1 menu1">
-            <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary rounded-5 custom-btn item" for="btnradio1">Купить билет</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item"
+                        for="btnradio2">Онлайн-регистрация</label>
 
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary rounded-5 custom-btn item"
-                    for="btnradio2">Онлайн-регистрация</label>
-
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-primary rounded-5 custom-btn item" for="btnradio3">Управление
-                    бронированием</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item" for="btnradio3">Управление
+                        бронированием</label>
+                </div>
             </div>
-        </div>
 
+            <button type="button" class="btn btn-outline-primary col-5 square-container rounded-5 menu2"
+                data-toggle="modal" data-target="#myModal">
+                Меню
+            </button>
 
+            <!-- Модальное окно -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
-        <button type="button" class="btn btn-outline-primary col-5 square-container rounded-5 menu2" data-toggle="modal"
-            data-target="#myModal">
-            Меню
-        </button>
+                        <!-- Заголовок модального окна -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Меню</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
 
-        <!-- Модальное окно -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
+                        <!-- Тело модального окна -->
+                        <div class="modal-body">
+                            <label for="btnradio1">Купить билет</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
+                                checked>
 
-                    <!-- Заголовок модального окна -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">Меню</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <label for="btnradio2">Онлайн-регистрация</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+
+                            <label for="btnradio3">Управление бронированием</label>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        </div>
+
+                        <!-- Подвал модального окна -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Закрыть</button>
+                        </div>
+
                     </div>
+                </div>
+            </div>
 
-                    <!-- Тело модального окна -->
-                    <div class="modal-body">
-                        <label for="btnradio1">Купить билет</label>
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-
-                        <label for="btnradio2">Онлайн-регистрация</label>
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-
-                        <label for="btnradio3">Управление бронированием</label>
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                    </div>
-
-                    <!-- Подвал модального окна -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Закрыть</button>
-                    </div>
-
+            <div class="col d-flex justify-content-end align-items-center me-4">
+                <div class="form-check">
+                    <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault"
+                        style="margin-top: 4px;">
+                    <label class="form-check-label custom-font" for="flexCheckDefault">
+                        Есть промокод
+                    </label>
                 </div>
             </div>
         </div>
-
-
-
-        <div class="col d-flex justify-content-end align-items-center me-4">
-            <div class="form-check">
-                <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault"
-                    style="margin-top: 4px;">
-                <label class="form-check-label custom-font" for="flexCheckDefault">
-                    Есть промокод
-                </label>
+        <div class="row mt-4 mb-0 ms-0">
+            <div class="col-2 m-1">
+                <p class="custom-font">Город вылета</p>
+            </div>
+            <div class="col-2 m-1">
+                <p class="custom-font">Город прибытия</p>
+            </div>
+            <div class="col-2 m-1">
+                <p class="custom-font">Туда</p>
+            </div>
+            <div class="col-2 m-1">
+                <p class="custom-font">Обратно</p>
             </div>
         </div>
+        <div class="row ms-0 mb-0" style="margin-top: -16px;">
+            <div class="col-2 square-container rounded-4 p-1 m-1">
 
+            </div>
+            <div class="col-2 square-container rounded-4 p-1 m-1">
+
+            </div>
+            <div class="col-2 square-container rounded-4 p-1 m-1">
+                <p class="custom-font">Обратно</p>
+            </div>
+            <div class="col-2 square-container rounded-4 p-1 m-1">
+                <p class="custom-font">Обратно</p>
+            </div>
+        </div>
     </div>
 
 </template>
@@ -103,7 +129,7 @@
 
 .custom-font {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .custom-border {
