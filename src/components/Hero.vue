@@ -1,25 +1,13 @@
 <template>
     <div class="container-fluid g-0">
-        <img style="margin-top: -200px; object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7"
+        <img style="object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7 custom-image"
             src="/airplane.png" alt="Photo by Irene Dávila">
     </div>
 
-    <div class="container p-5 bg-body mt-md-n6 position-relative rounded-4 shadow bg-main2 custom-div"
+    <div class="container pt-4 ps-4 bg-body mt-md-n6 position-relative rounded-5 shadow bg-main2 custom-div"
         style="margin-bottom: 100px;">
 
-        <div class="container-fluid square-container rounded-5 p-1">
-            <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary rounded-4 custom-btn" for="btnradio1">Radio 1</label>
-
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary rounded-4 custom-btn" for="btnradio2">Radio 2</label>
-
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-primary rounded-4 custom-btn" for="btnradio3">Radio 3</label>
-
-            </div>
-        </div>
+        <TabSelector />
 
 
         <!-- <div class="row">
@@ -44,30 +32,81 @@
     </div>
 </template>
 
+<script lang="ts" setup>
+import TabSelector from "@/components/TabSelector.vue";
+</script>
 
 <style lang="scss" scoped>
 .custom-div {
     height: 282px;
 }
 
+
+
 .square-container {
     padding: 10px;
     background-color: #e1f1f0;
 }
 
-.custom-btn {
-    border-width: 0px;
+@media (max-width: 2000px) {
+    .custom-div2 {
+        margin-left: 0px;
+    }
+
+    .custom-image {
+        margin-top: -200px;
+    }
 }
 
-/* Стиль для неактивных кнопок */
-.btn-check:checked+.custom-btn {
-    background-color: white;
-    color: #134C67;
+@media (max-width: 1200px) {
+    .custom-div2 {
+        margin-left: 0px;
+    }
+
+    .custom-image {
+        margin-top: -200px;
+    }
 }
 
-/* Стиль для неактивных кнопок */
-.btn-check:not(:checked)+.custom-btn {
-    background-color: e1f1f0;
-    color: #134C67;
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .custom-image {
+        margin-top: -200px;
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    .custom-image {
+        margin-top: -30px;
+    }
+
+    .custom-div {
+        margin-top: 50px;
+    }
 }
 </style>
