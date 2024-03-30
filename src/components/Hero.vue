@@ -41,8 +41,6 @@ import TabSelector from "@/components/TabSelector.vue";
     min-height: 282px;
 }
 
-
-
 .square-container {
     padding: 10px;
     background-color: #e1f1f0;

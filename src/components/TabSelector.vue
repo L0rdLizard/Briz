@@ -4,7 +4,7 @@
             <div class="col-9 square-container rounded-5 p-1 menu1">
                 <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
                     <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary rounded-5 custom-btn item" for="btnradio1">Купить
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item active" for="btnradio1">Купить
                         билет</label>
 
                     <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
@@ -17,12 +17,6 @@
                 </div>
             </div>
 
-            <button type="button" class="btn btn-outline-primary col-5 square-container rounded-5 menu2"
-                data-toggle="modal" data-target="#myModal">
-                Меню
-            </button>
-
-            <!-- Модальное окно -->
             <div class="modal fade" id="myModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -30,7 +24,7 @@
                         <!-- Заголовок модального окна -->
                         <div class="modal-header">
                             <h4 class="modal-title">Меню</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                         </div>
 
                         <!-- Тело модального окна -->
@@ -48,12 +42,20 @@
 
                         <!-- Подвал модального окна -->
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Закрыть</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Закрыть</button>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            <button type="button" class="btn btn-outline-primary col-5 square-container rounded-5 menu2"
+                data-bs-toggle="modal" data-bs-target="#myModal">
+                Меню
+            </button>
+
+            <!-- Модальное окно -->
+            
 
             <div class="col d-flex justify-content-end align-items-center me-4">
                 <div class="form-check">
@@ -65,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4 mb-0 ms-0">
+        <div class="row mt-4 mb-0 ms-0 me-2">
             <div class="col-2 m-1">
                 <p class="custom-font">Город вылета</p>
             </div>
@@ -80,17 +82,23 @@
             </div>
         </div>
         <div class="row ms-0 mb-0" style="margin-top: -16px;">
-            <div class="col-2 square-container rounded-4 p-1 m-1">
+            <div class="col-4 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-4 ms-2"
+                        placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+
+                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-2 ms-4"
+                        placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
 
             </div>
-            <div class="col-2 square-container rounded-4 p-1 m-1">
-
+            <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+                <input type="text" class="form-control custom-input-group m-0 rounded-4" placeholder="Туда"
+                    aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="col-2 square-container rounded-4 p-1 m-1">
-                <p class="custom-font">Обратно</p>
-            </div>
-            <div class="col-2 square-container rounded-4 p-1 m-1">
-                <p class="custom-font">Обратно</p>
+            <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+                <input type="text" class="form-control custom-input-group m-0 rounded-4" placeholder="Обратно"
+                    aria-label="Username" aria-describedby="basic-addon1">
             </div>
         </div>
     </div>
@@ -116,6 +124,12 @@
     .menu2 {
         display: none;
     }
+}
+
+.custom-input-group {
+    border-color: #e1f1f0;
+    background-color: #e1f1f0;
+    color: #e1f1f0;
 }
 
 .square-container {
