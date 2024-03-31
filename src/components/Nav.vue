@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top" style="position: relative;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top">
         <div class="container custom-div">
             <a class="navbar-brand" href="#">
                 <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
@@ -59,6 +59,7 @@
         <!-- <div class="" style="position: absolute; bottom: 0;">
             <hr class="custom-hr bg-main1 border-color-main1" />
         </div> -->
+        <hr class="custom-hr bg-main1 border-color-main1" style="position: relative;"/>
     </nav>
 
 

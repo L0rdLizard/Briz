@@ -69,12 +69,19 @@
             </div>
         </div>
         <div class="row mt-4 mb-0 ms-0 me-2">
-            <div class="col-2 m-1">
-                <p class="custom-font">Город вылета</p>
+            <div class="col-3 m-1">
+                <div class="row ">
+                    <p class="col custom-font">Вылет</p>
+                    <p class="col custom-font">Прибытие</p>
+                </div>
             </div>
-            <div class="col-2 m-1">
-                <p class="custom-font">Город прибытия</p>
+            <!-- <div class="col-2 m-1">
+                <p class="custom-font">Вылет</p>
             </div>
+            <div class="col-1 m-1">
+                <p class="custom-font">Прибытие</p>
+            </div> -->
+
             <div class="col-2 m-1">
                 <p class="custom-font">Туда</p>
             </div>
@@ -83,12 +90,12 @@
             </div>
         </div>
         <div class="row ms-0 mb-0" style="margin-top: -16px;">
-            <div class="col-4 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+            <div class="col-3 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
                 <div class="row">
-                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-4 ms-2"
+                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2"
                         placeholder="Откуда" aria-label="Username" aria-describedby="basic-addon1">
 
-                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-2 ms-4"
+                    <input type="text" class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2"
                         placeholder="Куда" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
 

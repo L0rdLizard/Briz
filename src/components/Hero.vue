@@ -2,7 +2,7 @@
     <div class="container-fluid g-0">
         <!-- <img style="object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7 custom-image"
             src="/airplane.png" alt="Photo by Irene Dávila"> -->
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
@@ -35,7 +35,7 @@
 
 
         </div>
-        <div class="row container pt-4 ps-4 bg-body mt-md-n6 position-relative rounded-5 shadow custom-div">
+        <div class="row container pt-4 ps-4 bg-body mt-md-n6 position-relative rounded-5 shadow custom-div" style="margin-bottom: 100px;">
 
             <TabSelector />
 
@@ -64,7 +64,7 @@ import TabSelector from "@/components/TabSelector.vue";
     }
 
     .custom-image {
-        margin-top: -200px;
+        margin-top: 0px;
     }
 }
 
@@ -74,7 +74,7 @@ import TabSelector from "@/components/TabSelector.vue";
     }
 
     .custom-image {
-        margin-top: -200px;
+        margin-top: 0px;
     }
 }
 
@@ -93,7 +93,7 @@ import TabSelector from "@/components/TabSelector.vue";
     }
 
     .custom-image {
-        margin-top: -200px;
+        margin-top: 100px;
     }
 }
 
@@ -112,7 +112,7 @@ import TabSelector from "@/components/TabSelector.vue";
     }
 
     .custom-image {
-        margin-top: -30px;
+        margin-top: 100px;
     }
 
     .custom-div {
