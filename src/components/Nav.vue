@@ -30,7 +30,7 @@
                     <div class="mx-3">
                         <div class="row">
                             <div class="col-sm">
-                                <p><i class="fas fa-phone"></i>Call-центр: <a href="tel:+79014535382">+7 (901) 453 53
+                                <p><i class="fas fa-phone inter-400"></i>Call-центр: <a class="inter-400" href="tel:+79014535382">+7 (901) 453 53
                                         82</a></p>
                             </div>
                         </div>
