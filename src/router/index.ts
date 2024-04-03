@@ -12,16 +12,23 @@ export const routes = [
   },
   {
     path: `${baseUrl}/about`,
-    component: () => import("@/layouts/Page.vue"),
+    component: () => import("@/layouts/Main.vue"),
     children: [
       { path: "", name: "About", component: () => import("@/views/About.vue") }
     ],
   },
   {
     path: `${baseUrl}/contacts`,
-    component: () => import("@/layouts/Page.vue"),
+    component: () => import("@/layouts/Main.vue"),
     children: [
       { path: "", name: "Contacts", component: () => import("@/views/Contacts.vue") },
+    ],
+  },
+  {
+    path: `${baseUrl}/tickets`,
+    component: () => import("@/layouts/Main.vue"),
+    children: [
+      { path: "", name: "Tickets", component: () => import("@/views/Tickets.vue") },
     ],
   },
 ];

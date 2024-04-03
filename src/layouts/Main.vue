@@ -1,14 +1,6 @@
 <template>
     <Nav />
 
-
-    <!-- <TestHero /> -->
-
-
-    <!-- <header class="container">
-        <Heads>template based on Vue 3, Bootstrap 5, SASS with Dark Theme and Typescript!</Heads>
-    </header> -->
-
     <main class="flex-shrink-0 mb-4">
         <router-view />
     </main>
