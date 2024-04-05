@@ -31,7 +31,7 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build --base=/vue-bootstrap",
-    "type-check": "vue-tsc --emitDeclarationOnly"
+    "type-check": "vue-tsc"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
