@@ -1,34 +1,46 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router';
 
-const baseUrl = import.meta.env.VITE_BUILD_ADDRESS;
+const baseUrl = import.meta.env.VITE_BUILD_ADDRESS || '';
 
 export const routes = [
   {
     path: `${baseUrl}/`,
     component: () => import("@/layouts/Main.vue"),
     children: [
-      { path: "", name: "Home", component: () => import("@/views/MainPage.vue") }
+      {
+        path: "",
+        name: "Home",
+        component: () => import("@/views/MainPage.vue"),
+      },
     ],
   },
   {
     path: `${baseUrl}/about`,
     component: () => import("@/layouts/Main.vue"),
     children: [
-      { path: "", name: "About", component: () => import("@/views/About.vue") }
+      { path: "", name: "About", component: () => import("@/views/About.vue") },
     ],
   },
   {
     path: `${baseUrl}/contacts`,
     component: () => import("@/layouts/Main.vue"),
     children: [
-      { path: "", name: "Contacts", component: () => import("@/views/Contacts.vue") },
+      {
+        path: "",
+        name: "Contacts",
+        component: () => import("@/views/Contacts.vue"),
+      },
     ],
   },
   {
     path: `${baseUrl}/tickets`,
     component: () => import("@/layouts/Main.vue"),
     children: [
-      { path: "", name: "Tickets", component: () => import("@/views/Tickets.vue") },
+      {
+        path: "",
+        name: "Tickets",
+        component: () => import("@/views/Tickets.vue"),
+      },
     ],
   },
 ];
