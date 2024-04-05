@@ -1,65 +1,69 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-nav p-0 fixed-top">
-        <div class="container custom-div">
-            <a class="navbar-brand" href="#">
-                <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
-            </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-main1 p-0 fixed-top pb-2">
+        <div class="bg-nav m-0 p-0 container-fluid">
+            <div class="container custom-div d-flex justify-content-center align-items-center">
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
+                </a>
 
-            <!-- d-flex justify-content-center align-items-center -->
-            <div class="collapse navbar-collapse custom-div2" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link active inter-400" aria-current="page" href="#">Сервисы и
-                            услуги</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link inter-400" href="#">Информация</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link inter-400" href="#">Бриз Бонус</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link inter-400" href="#">Пассажирам</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link inter-400" href="#">Бизнесу</a>
-                    </li>
-                </ul>
+                <!-- d-flex justify-content-center align-items-center -->
+                <div class="collapse navbar-collapse custom-div2" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active inter-400" aria-current="page" href="#">Сервисы и
+                                услуги</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link inter-400" href="#">Информация</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link inter-400" href="#">Бриз Бонус</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link inter-400" href="#">Пассажирам</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link inter-400" href="#">Бизнесу</a>
+                        </li>
+                    </ul>
 
-                <div class="col navbar-right d-flex justify-content-end">
-                    <div class="mx-3">
-                        <div class="row">
-                            <div class="col-sm">
-                                <p><i class="fas fa-phone inter-400"></i>Call-центр: <a class="inter-400" href="tel:+79014535382">+7 (901) 453 53
-                                        82</a></p>
+                    <div class="col navbar-right d-flex justify-content-end">
+                        <div class="mx-3">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <p><i class="fas fa-phone inter-400"></i>Call-центр: <a class="inter-400"
+                                            href="tel:+79014535382">+7 (901) 453 53
+                                            82</a></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="nav-item col" style="white-space: nowrap;">
-                                <a class="nav-link" href="#">Личный кабинет</a>
-                            </div>
-                            <div class="nav-item col" style="margin-top: -6px;">
-                                <select class="form-select" aria-label="Выбор языка">
-                                    <option selected>RU</option>
-                                    <option value="1">EN</option>
-                                    <option value="2">DE</option>
-                                    <option value="3">FR</option>
-                                </select>
+                            <div class="row">
+                                <div class="nav-item col" style="white-space: nowrap;">
+                                    <a class="nav-link" href="#">Личный кабинет</a>
+                                </div>
+                                <div class="nav-item col" style="margin-top: -6px;">
+                                    <select class="form-select" aria-label="Выбор языка">
+                                        <option selected>RU</option>
+                                        <option value="1">EN</option>
+                                        <option value="2">DE</option>
+                                        <option value="3">FR</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
+
         <!-- <div class="" style="position: absolute; bottom: 0;">
             <hr class="custom-hr bg-main1 border-color-main1" />
         </div> -->
-        <hr class="custom-hr bg-main1 border-color-main1" style="position: relative;"/>
+        <!-- <hr class="custom-hr bg-main1 border-color-main1" style="position: relative;" /> -->
     </nav>
 
 
