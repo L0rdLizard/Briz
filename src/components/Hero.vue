@@ -29,18 +29,14 @@
 
     </div>
 
-    <div class="col container">
-        <div class="row">
 
+    <div class="container pt-4 p-4 bg-body mt-md-n6 position-relative rounded-5 shadow custom-div"
+        style="margin-bottom: 100px;">
 
+        <TabSelector />
 
-        </div>
-        <div class="row container pt-4 ps-4 bg-body mt-md-n6 position-relative rounded-5 shadow custom-div" style="margin-bottom: 100px;">
-
-            <TabSelector />
-
-        </div>
     </div>
+
 
 </template>
 
