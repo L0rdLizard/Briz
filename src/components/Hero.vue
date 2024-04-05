@@ -3,7 +3,7 @@
         <!-- <img style="object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7 custom-image"
             src="/airplane.png" alt="Photo by Irene Dávila"> -->
         <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
                 </div>
@@ -51,6 +51,10 @@ import TabSelector from "@/components/TabSelector.vue";
 <style lang="scss" scoped>
 .custom-div {
     min-height: 282px;
+}
+
+.carousel-item {
+    transition: transform 1.6s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .square-container {

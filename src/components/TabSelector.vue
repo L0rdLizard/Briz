@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="myModal">
+            <div class="modal fade" id="myModal" >
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -242,4 +242,6 @@ window.onload = function () {
     flex: 1 1 0;
     width: 0;
 }
+
+
 </style>
