@@ -72,18 +72,12 @@
             </div>
         </div>
         <div class="row mt-4 mb-0 ms-0 me-2">
-            <div class="col-3 m-1">
+            <div class="col-4 m-1">
                 <div class="row ">
                     <p class="col custom-font inter-400">Вылет</p>
                     <p class="col custom-font inter-400">Прибытие</p>
                 </div>
             </div>
-            <!-- <div class="col-2 m-1">
-                <p class="custom-font">Вылет</p>
-            </div>
-            <div class="col-1 m-1">
-                <p class="custom-font">Прибытие</p>
-            </div> -->
 
             <div class="col-2 m-1">
                 <p class="custom-font inter-400">Туда</p>
@@ -97,23 +91,23 @@
                 <div class="row">
                     <input type="text"
                         class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
-                        placeholder="Откуда" aria-label="Username" aria-describedby="basic-addon1" v-model="strfrom">
+                        placeholder=" " aria-label="Username" aria-describedby="basic-addon1" v-model="strfrom">
                     <!-- <button type="button" class="col p-0 "></button> -->
                     <button type="button" class="btn col-1 p-0" @click="swap"><span class="bi-arrow-left-right"></span></button>
                     <input type="text"
                         class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
-                        placeholder="Куда" aria-label="Username" aria-describedby="basic-addon1" v-model="strto">
+                        placeholder=" " aria-label="Username" aria-describedby="basic-addon1" v-model="strto">
                 </div>
 
             </div>
             <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
-                <img src="/calendar-month.svg" alt="Описание иконки">
-                <input type="text" class="form-control custom-input-group m-0 rounded-4 custom-font inter-400"
+                <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+                <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
                     placeholder="Туда" aria-label="Username" aria-describedby="basic-addon1">
             </div>
             <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
-                <img src="/calendar-month.svg" alt="Описание иконки">
-                <input type="text" class="form-control custom-input-group m-0 rounded-4 custom-font inter-400"
+                <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+                <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
                     placeholder="Обратно" aria-label="Username" aria-describedby="basic-addon1">
             </div>
             <div class="col-1 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
