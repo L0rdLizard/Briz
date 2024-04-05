@@ -54,7 +54,7 @@ import TabSelector from "@/components/TabSelector.vue";
 }
 
 .carousel-item {
-    transition: transform 1.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: transform 1.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
 .square-container {

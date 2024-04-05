@@ -20,7 +20,8 @@
                             <a class="nav-link inter-400" href="#">Бриз Бонус</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Пассажирам</a>
+                            <!-- <a class="nav-link inter-400" href="/#best-offer">Пассажирам</a> -->
+                            <RouterLink class="nav-link inter-400" to="/#best-offer">Пассажирам</RouterLink>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link inter-400" href="#">Бизнесу</a>

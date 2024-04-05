@@ -33,7 +33,23 @@ export const routes = [
   },
 ];
 
+// export const router = createRouter({
+//   history: createWebHistory(),
+//   routes: routes,
+// });
+
 export const router = createRouter({
   history: createWebHistory(),
   routes: routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    if (to.hash) {
+      return { el: to.hash };
+    }
+    return { top: 0 };
+  }
 });
+
+// export default router;

@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid square-container rounded-top-5">
+    <div class="container-fluid square-container rounded-top-5" id="best-offer">
         <!-- <div> -->
         <div class="container" style="margin-bottom: 20px;">
 

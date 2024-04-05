@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-2 rounded-4" style="margin-top: 100px; background-color: white;">
+    <div class="container p-2 rounded-4" style="margin-top: 140px; background-color: white;">
         <div class="container-liquid row p-4 m-4 mb-3 rounded-4 custom-element1">
             <div class="container-liquid col-2">
                 <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;">9:15</p>
