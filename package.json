@@ -30,15 +30,15 @@
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
-    "build-only": "vite build --base=/vue-bootstrap",
-    "type-check": "vue-tsc --emitDeclarationOnly"
+    "build-only": "vite build",
+    "type-check": "vue-tsc"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.3",
     "vue": "^3.2.47",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
@@ -50,6 +50,5 @@
     "typescript": "^5.0.2",
     "vite": "^5.0.11",
     "vue-tsc": "^2.0.6"
-  },
-  "type": "module"
+  }
 }

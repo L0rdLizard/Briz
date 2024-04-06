@@ -6,6 +6,8 @@
     "noEmit": false,
     "emitDeclarationOnly": true,
     "composite": true,
-    "types": ["node", "bootstrap", "vite/client"]
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": ["node", "bootstrap", "vite/client"],
   }
 }
