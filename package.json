@@ -30,7 +30,7 @@
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
-    "build-only": "vite build --base=/vue-bootstrap",
+    "build-only": "vite build",
     "type-check": "vue-tsc"
   },
   "dependencies": {
@@ -50,6 +50,5 @@
     "typescript": "^5.0.2",
     "vite": "^5.0.11",
     "vue-tsc": "^2.0.6"
-  },
-  "type": "module"
+  }
 }
