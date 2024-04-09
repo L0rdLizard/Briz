@@ -1,3 +1,5 @@
+$enable-negative-margins: true;
+
 $colors: (
     krevet: #EF8B77,
     main1: #0E4B66,
@@ -49,8 +51,6 @@ $colors: (
 // body {
 //     zoom: 0.9;
 // }
-
-
 
 
 @import "bootstrap/scss/bootstrap.scss";

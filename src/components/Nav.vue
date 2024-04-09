@@ -8,11 +8,19 @@
 
                 <!-- d-flex justify-content-center align-items-center -->
                 <div class="collapse navbar-collapse custom-div2" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link active inter-400" aria-current="page" href="#">Сервисы и
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mx-3 dropdown">
+                            <a class="nav-link inter-400 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">Сервисы и
                                 услуги</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
                         </li>
+
                         <li class="nav-item mx-3">
                             <a class="nav-link inter-400" href="#">Информация</a>
                         </li>
@@ -68,7 +76,6 @@
     </nav>
 
 
-
 </template>
 
 <script lang="ts" setup>
@@ -81,19 +88,7 @@ const router = useRouter();
 const activeRoute = computed(() => router.currentRoute.value.path);
 const isActive = (path: string) => path === activeRoute.value;
 
-// window.addEventListener('resize', adjustTopMargin);
 
-// function adjustTopMargin() {
-//     var navbar = document.querySelector('.navbar') as HTMLElement;
-//     if (navbar) {
-//         var navbarHeight = navbar.offsetHeight;
-//         var hrElement = document.querySelector('.custom-hr') as HTMLElement;
-//         if (hrElement) {
-//             hrElement.style.marginTop = navbarHeight + 'px';
-//         }
-//     }
-// }
-// adjustTopMargin();
 
 </script>
 
@@ -107,7 +102,7 @@ ul {
     border-width: 8px;
     opacity: 1;
     // position: relative;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 .custom-div {
@@ -121,6 +116,15 @@ ul {
 .nav-link {
     color: #134C67;
     font-weight: 600;
+}
+
+.dropdown-menu {
+    margin-top: 30px;
+    left: -522px;
+    right: 0px;
+    width: 98vw;
+    position: absolute;
+    z-index: 9999;
 }
 
 @media (max-width: 1200px) {

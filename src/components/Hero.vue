@@ -30,7 +30,7 @@
     </div>
 
 
-    <div class="container pt-4 p-4 bg-body mt-md-n6 position-relative rounded-5 shadow custom-div"
+    <div class="container pt-4 p-4 bg-body mt-md-n6 mt-n6 position-relative rounded-5 shadow custom-div"
         style="margin-bottom: 100px;">
 
         <TabSelector />
@@ -56,6 +56,10 @@ import TabSelector from "@/components/TabSelector.vue";
 .square-container {
     padding: 10px;
     background-color: #e1f1f0;
+}
+
+.mt-n6 {
+    margin-top: -6rem !important;
 }
 
 @media (max-width: 2000px) {
