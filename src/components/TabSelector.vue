@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4 mb-0 ms-0 me-2">
+        <div class="row mt-4 mb-0 ms-0 me-2 gap-4">
             <div class="col-4 m-1">
                 <div class="row ">
                     <p class="col custom-font inter-400">Вылет</p>
@@ -86,8 +86,8 @@
                 <p class="custom-font inter-400">Обратно</p>
             </div>
         </div>
-        <div class="row ms-0 mb-0" style="margin-top: -16px;">
-            <div class="col-4 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+        <div class="row ms-0 mb-0 gap-4" style="margin-top: -16px;">
+            <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
                 <div class="row">
                     <input type="text"
                         class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
@@ -100,17 +100,17 @@
                 </div>
 
             </div>
-            <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+            <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
                 <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
                 <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
                     placeholder="Туда" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="col-2 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+            <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
                 <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
                 <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
                     placeholder="Обратно" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="col-1 square-container rounded-4 m-1 p-1 d-flex justify-content-center align-items-center">
+            <div class="col-1 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
                 <select class="form-select square-container custom-btn rounded-4 custom-font inter-400"
                     id="inputGroupSelect01" style="width: 100%; height: 100%;">
                     <option class="custom-font inter-400" selected>Choose...</option>
@@ -119,7 +119,7 @@
                     <option class="custom-font inter-400" value="3">2+ клиента</option>
                 </select>
             </div>
-            <div class="col-2 square-container2 rounded-4 m-1 p-0 d-flex justify-content-center align-items-center">
+            <div class="col-2 square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
                 <button type="button" class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
                     style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
             </div>
