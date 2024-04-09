@@ -61,16 +61,16 @@
                         </li>
                     </ul>
 
-                    <div class="col navbar-right d-flex justify-content-end">
-                        <div class="mx-3">
-                            <div class="row">
+                    <div class="col navbar-right m-0 d-flex justify-content-end me-n6">
+                        <div class="ms-5 p-0 m-0">
+                            <div class="row ">
                                 <div class="col-sm">
                                     <p><i class="fas fa-phone inter-400"></i>Call-центр: <a class="inter-400"
                                             href="tel:+79014535382">+7 (901) 453 53
                                             82</a></p>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row ">
                                 <div class="nav-item col" style="white-space: nowrap;">
                                     <a class="nav-link" href="#">Личный кабинет</a>
                                 </div>
