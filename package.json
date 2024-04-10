@@ -38,7 +38,8 @@
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.3",
     "vue": "^3.2.47",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",

@@ -2,6 +2,7 @@
   "extends": "@vue/tsconfig/tsconfig.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
+    "types": ["vuex"],
     "target": "esnext",
     "module": "esnext", // add this line
     "moduleResolution": "node",

@@ -37,7 +37,7 @@
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
             <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
-                placeholder="Обратно" aria-label="Username" aria-describedby="basic-addon1">
+                placeholder="Обратно" aria-label="Username" aria-describedby="basic-addon1" v-model="store.state.formData.SDateBack">
         </div>
         <div class="col-1 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <select class="form-select square-container custom-btn rounded-4 custom-font inter-400"
@@ -82,6 +82,10 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
+import { defineComponent, reactive } from 'vue';
+// import { useStore } from 'vuex';
+import { store } from "@/store";
+import { useRouter } from 'vue-router'
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
