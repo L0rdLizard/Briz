@@ -2,10 +2,12 @@
     <div class="container p-2 rounded-4" style="margin-top: 140px; background-color: white;">
         <div class="container-liquid row p-4 m-4 mb-3 rounded-4 custom-element1">
             <div class="container-liquid col-2">
-                <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;">9:15</p>
-                <p class="custom-font inter-400 mt-1 mb-1">Калининград</p>
+                <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;"> 9:15 </p>
+                <!-- <p class="custom-font inter-400 mt-1 mb-1">Калининград</p> -->
+                <p class="custom-font inter-400 mt-1 mb-1">  {{ formData.SFrom }} </p>
                 <p class="custom-font inter-400 mt-1 mb-1">Храброво</p>
-                <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p>
+                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
+                <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate}} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
 
@@ -14,10 +16,12 @@
             </div>
 
             <div class="container-liquid col-2 " style="text-align: right;">
-                <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;">9:15</p>
-                <p class="custom-font inter-400 mt-1 mb-1">Санкт-Петербург</p>
+                <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;">11:45</p>
+                <!-- <p class="custom-font inter-400 mt-1 mb-1">Санкт-Петербург</p> -->
+                <p class="custom-font inter-400 mt-1 mb-1"> {{ formData.STo }} </p>
                 <p class="custom-font inter-400 mt-1 mb-1">Пулково</p>
-                <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p>
+                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
+                <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -125,9 +129,18 @@
             </div>
         </div>
     </div>
-
-
 </template>
+
+<script lang="ts" setup>
+import { defineComponent } from 'vue'
+import { useStore } from 'vuex'
+
+const store = useStore()
+const formData = store.state.formData
+
+// export { formData }
+
+</script>
 
 <style lang="scss" scoped>
 .custom-element1 {

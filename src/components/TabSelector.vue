@@ -68,15 +68,17 @@
                 </div>
             </div>
         </div>
-        <Tab1/>
+        <Tab1 />
     </div>
 
 </template>
 
 
 <script lang="ts" setup>
+import { defineComponent, reactive } from 'vue'
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
+
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
@@ -87,7 +89,7 @@ window.onload = function () {
 
 const strfrom = ref('');
 const strto = ref('');
-function swap(event:any) {
+function swap(event: any) {
     const strtemp = strfrom.value;
     strfrom.value = strto.value;
     strto.value = strtemp;

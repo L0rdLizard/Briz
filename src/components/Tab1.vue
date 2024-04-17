@@ -17,27 +17,29 @@
     <div class="row ms-0 mb-0 gap-4" style="margin-top: -16px;">
         <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <div class="row">
-                <input type="text"
+                <input v-model="formData.SFrom" type="text"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
-                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1" v-model="strfrom">
+                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
                 <!-- <button type="button" class="col p-0 "></button> -->
                 <button type="button" class="btn col-1 p-0" @click="swap"><span
                         class="bi-arrow-left-right"></span></button>
-                <input type="text"
+                <input v-model="formData.STo" type="text"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
-                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1" v-model="strto">
+                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
             </div>
 
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
-            <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
+            <input v-model="formData.SDate" type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
                 placeholder="Туда" aria-label="Username" aria-describedby="basic-addon1">
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
-            <input type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
-                placeholder="Обратно" aria-label="Username" aria-describedby="basic-addon1" v-model="store.state.formData.SDateBack">
+
+            <input v-model="formData.SDateBack" type="text"
+                class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400" placeholder="Обратно"
+                aria-label="Username" aria-describedby="basic-addon1">
         </div>
         <div class="col-1 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <select class="form-select square-container custom-btn rounded-4 custom-font inter-400"
@@ -49,7 +51,7 @@
             </select>
         </div>
         <div class="col-2 square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
-            <button type="button" class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
+            <button @click="submitForm" type="button" class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
                 style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
         </div>
     </div>
@@ -82,10 +84,50 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
-import { defineComponent, reactive } from 'vue';
-// import { useStore } from 'vuex';
-import { store } from "@/store";
+import { reactive } from 'vue';
+import { defineComponent } from 'vue'
+import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
+// import { store } from '@/store';
+
+const formData = reactive({
+    SFrom: '',
+    STo: '',
+    SDate: '',
+    SDateBack: ''
+})
+
+const store = useStore()
+const router = useRouter()
+
+function submitForm() {
+    store.commit('setFormData', formData)
+    router.push('/tickets')
+}
+
+// export { formData, submitForm }
+
+// const formData = reactive({
+//     SFrom: '',
+//     STo: '',
+//     SDate: '',
+//     SDateBack: ''
+// })
+
+// export const TabSelectorComponent = defineComponent({
+//     setup(): { formData: { SFrom: string, STo: string, SDate: string, SDateBack: string; }, submitForm: () => void } {
+//         const store = useStore()
+//         const router = useRouter()
+
+
+//         function submitForm() {
+//             store.commit('setFormData', formData)
+//             router.push('/tickets')
+//         }
+
+//         return { formData, submitForm }
+//     }
+// })
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
@@ -96,7 +138,7 @@ window.onload = function () {
 
 const strfrom = ref('');
 const strto = ref('');
-function swap(event:any) {
+function swap(event: any) {
     const strtemp = strfrom.value;
     strfrom.value = strto.value;
     strto.value = strtemp;
