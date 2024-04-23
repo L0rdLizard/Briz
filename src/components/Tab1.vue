@@ -17,13 +17,13 @@
     <div class="row ms-0 mb-0 gap-4" style="margin-top: -16px;">
         <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <div class="row">
-                <input v-model="formData.SFrom" type="text"
+                <input v-model="formData.SFrom" type="text" ref="input1"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
                     placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
                 <!-- <button type="button" class="col p-0 "></button> -->
                 <button type="button" class="btn col-1 p-0" @click="swap"><span
                         class="bi-arrow-left-right"></span></button>
-                <input v-model="formData.STo" type="text"
+                <input v-model="formData.STo" type="text" ref="input2"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
                     placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
             </div>
@@ -31,8 +31,9 @@
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
-            <input v-model="formData.SDate" type="text" class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400"
-                placeholder="Туда" aria-label="Username" aria-describedby="basic-addon1">
+            <input v-model="formData.SDate" type="text"
+                class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400" placeholder="Туда"
+                aria-label="Username" aria-describedby="basic-addon1">
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
@@ -51,7 +52,8 @@
             </select>
         </div>
         <div class="col-2 square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
-            <button @click="submitForm" type="button" class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
+            <button @click="submitForm" type="button"
+                class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
                 style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
         </div>
     </div>
@@ -84,13 +86,11 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
-import { reactive } from 'vue';
-import { defineComponent } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
 // import { store } from '@/store';
 
-const formData = reactive({
+const formData = ({
     SFrom: '',
     STo: '',
     SDate: '',
@@ -107,27 +107,6 @@ function submitForm() {
 
 // export { formData, submitForm }
 
-// const formData = reactive({
-//     SFrom: '',
-//     STo: '',
-//     SDate: '',
-//     SDateBack: ''
-// })
-
-// export const TabSelectorComponent = defineComponent({
-//     setup(): { formData: { SFrom: string, STo: string, SDate: string, SDateBack: string; }, submitForm: () => void } {
-//         const store = useStore()
-//         const router = useRouter()
-
-
-//         function submitForm() {
-//             store.commit('setFormData', formData)
-//             router.push('/tickets')
-//         }
-
-//         return { formData, submitForm }
-//     }
-// })
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
@@ -136,13 +115,28 @@ window.onload = function () {
     }
 }
 
-const strfrom = ref('');
-const strto = ref('');
-function swap(event: any) {
-    const strtemp = strfrom.value;
-    strfrom.value = strto.value;
-    strto.value = strtemp;
+const input1 = ref<HTMLInputElement | null>(null)
+const input2 = ref<HTMLInputElement | null>(null)
+
+const swap = () => {
+    if (input1.value && input2.value) {
+        let temp = input1.value.value
+        input1.value.value = input2.value.value
+        input2.value.value = temp
+
+        let tempData = formData.SFrom
+        formData.SFrom = formData.STo
+        formData.STo = tempData
+    }
 }
+
+// const strfrom = ref('');
+// const strto = ref('');
+// function swap(event: any) {
+//     const strtemp = strfrom.value;
+//     strfrom.value = strto.value;
+//     strto.value = strtemp;
+// }
 
 </script>
 
