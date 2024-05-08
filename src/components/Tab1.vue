@@ -60,7 +60,7 @@
     <div class="row">
 
         <div class="col-2 ms-1 me-2" style="margin-top: 16px;">
-            <div class="form-check">
+            <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault1"
                     style="margin-top: 4px;">
                 <label class="form-check-label custom-font inter-400 ms-2" for="flexCheckDefault1"
@@ -71,7 +71,7 @@
         </div>
 
         <div class="col-2 ms-1 me-2" style="margin-top: 16px;">
-            <div class="form-check">
+            <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault2"
                     style="margin-top: 4px;">
                 <label class="form-check-label custom-font inter-400 ms-2" for="flexCheckDefault2"

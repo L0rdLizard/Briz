@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-main1 p-0 fixed-top pb-2">
         <div class="bg-nav m-0 p-0 container-fluid">
-            <div class="container custom-div d-flex justify-content-center align-items-center">
+            <div class="container p-0 custom-div d-flex justify-content-center align-items-center">
                 <a class="navbar-brand d-flex" href="/">
                     <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
                 </a>
