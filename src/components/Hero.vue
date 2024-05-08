@@ -4,14 +4,23 @@
             src="/airplane.png" alt="Photo by Irene Dávila"> -->
         <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel">
             <div class="carousel-inner ">
+                <!-- <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                </div> -->
                 <div class="carousel-item active">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                    <img src="/airplane.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                    <img src="/airplane.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
+                    <img src="/airplane.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="col carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -30,7 +39,7 @@
     </div>
 
 
-    <div class="container pt-4 p-4 bg-body mt-md-n6 mt-n6 position-relative rounded-5 shadow custom-div"
+    <div class="container mx-6 pt-4 p-4 bg-body mt-md-n6 mt-n6 position-relative rounded-5 shadow custom-div"
         style="margin-bottom: 100px;">
 
         <TabSelector />

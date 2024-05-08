@@ -1,11 +1,11 @@
 <template>
-    <Nav />
+    <Nav style="zoom: 85%;" />
 
-    <main class="flex-shrink-0 mb-4">
+    <main class="flex-shrink-0 mb-4" style="zoom: 85%;">
         <router-view />
     </main>
 
-    <footer class="container footer mb-2 mt-auto custom-footer">
+    <footer class="container footer mb-2 mt-auto custom-footer" style="zoom: 85%;">
         <Footer />
     </footer>
 

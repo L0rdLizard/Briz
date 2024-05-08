@@ -23,6 +23,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
 
+
                         <!-- Заголовок модального окна -->
                         <div class="modal-header">
                             <h4 class="modal-title">Меню</h4>
@@ -30,7 +31,7 @@
                         </div>
 
                         <!-- Тело модального окна -->
-                        <div class="modal-body">
+                        <div class="modal-body" style="zoom: 100%;">
                             <label for="btnradio1">Купить билет</label>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
                                 checked>
