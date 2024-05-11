@@ -26,7 +26,15 @@
                         <img class="ms-2" src="/plane-arrival.png" height="34" alt="Описание иконки">
                     </p>
                 </div>
-                <hr class="custom-hr bg-main1 border-color-main1" />
+
+                <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
+
+                <div class="row pt-0 mb-0 mt-0">
+                    <p class="col d-flex justify-content-start align-items-start custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">KGD</p>
+                    <p class="col d-flex justify-content-end align-items-end custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">LED</p>
+                </div>
             </div>
 
             <div class="container-liquid col-2 " style="text-align: right;">
