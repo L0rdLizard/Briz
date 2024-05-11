@@ -3,19 +3,20 @@
         <div class="row m-0">
             <div class="col-9 square-container rounded-5 p-1 menu1">
                 <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" checked>
+                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off"
+                    v-model="selectedOption" value="buy" checked>
                     <label class="btn btn-outline-primary rounded-5 custom-btn item active inter-400"
-                        for="btnradio1">Купить
-                        билет</label>
+                        for="btnradio1">Купить билет</label>
 
-                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off">
+                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off"
+                    v-model="selectedOption" value="registration">
                     <label class="btn btn-outline-primary rounded-5 custom-btn item inter-400"
                         for="btnradio2">Онлайн-регистрация</label>
 
-                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off">
+                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off"
+                    v-model="selectedOption" value="management">
                     <label class="btn btn-outline-primary rounded-5 custom-btn item inter-400"
-                        for="btnradio3">Управление
-                        бронированием</label>
+                        for="btnradio3">Управление бронированием</label>
                 </div>
             </div>
 
@@ -23,14 +24,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
 
-
-                        <!-- Заголовок модального окна -->
                         <div class="modal-header">
                             <h4 class="modal-title">Меню</h4>
                             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                         </div>
 
-                        <!-- Тело модального окна -->
                         <div class="modal-body" style="zoom: 100%;">
                             <label for="btnradio1">Купить билет</label>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
@@ -43,7 +41,6 @@
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                         </div>
 
-                        <!-- Подвал модального окна -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-outline-primary"
                                 data-bs-dismiss="modal">Закрыть</button>
@@ -69,7 +66,17 @@
                 </div>
             </div>
         </div>
-        <Tab1 />
+        
+        <div v-if="selectedOption === 'buy'">
+            <Tab1 />
+            <!-- <p>Здесь будет контент для покупки билета</p> -->
+        </div>
+        <div v-else-if="selectedOption === 'registration'">
+            <p>Здесь будет контент для онлайн-регистрации</p>
+        </div>
+        <div v-else-if="selectedOption === 'management'">
+            <p>Здесь будет контент для управления бронированием</p>
+        </div>
     </div>
 
 </template>
@@ -80,6 +87,7 @@ import { defineComponent, reactive } from 'vue'
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
 
+const selectedOption = ref('buy');
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
