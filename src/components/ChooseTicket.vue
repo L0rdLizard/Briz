@@ -82,10 +82,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 4560 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4060 руб</button>
                     </div>
                 </div>
             </div>
@@ -114,10 +114,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 5100 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4800 руб</button>
                     </div>
                 </div>
             </div>
@@ -144,10 +144,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 7230 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 6630 руб</button>
                     </div>
                 </div>
             </div>
@@ -229,10 +229,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 4560 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4060 руб</button>
                     </div>
                 </div>
             </div>
@@ -261,10 +261,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 5100 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4800 руб</button>
                     </div>
                 </div>
             </div>
@@ -291,10 +291,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 7230 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 6630 руб</button>
                     </div>
                 </div>
             </div>
@@ -375,10 +375,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 4560 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4060 руб</button>
                     </div>
                 </div>
             </div>
@@ -407,10 +407,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 5100 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 4800 руб</button>
                     </div>
                 </div>
             </div>
@@ -437,10 +437,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px;">Найти</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px;">от 7230 руб</button>
                         <button type="button"
                             class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
-                            style="width: 100%; color: #B7B7B8;">Найти</button>
+                            style="width: 100%; color: #B7B7B8;">от 6630 руб</button>
                     </div>
                 </div>
             </div>
