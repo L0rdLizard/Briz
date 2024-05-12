@@ -69,13 +69,12 @@
         
         <div v-if="selectedOption === 'buy'">
             <Tab1 />
-            <!-- <p>Здесь будет контент для покупки билета</p> -->
         </div>
         <div v-else-if="selectedOption === 'registration'">
-            <p>Здесь будет контент для онлайн-регистрации</p>
+            <Tab2 />
         </div>
         <div v-else-if="selectedOption === 'management'">
-            <p>Здесь будет контент для управления бронированием</p>
+            <Tab3 />
         </div>
     </div>
 
@@ -86,6 +85,8 @@
 import { defineComponent, reactive } from 'vue'
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
+import Tab2 from "@/components/Tab2.vue";
+import Tab3 from "@/components/Tab3.vue";
 
 const selectedOption = ref('buy');
 
