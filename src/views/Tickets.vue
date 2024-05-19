@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="zoom: 90%;">
         <ExtraTickets />
     </div>
 
