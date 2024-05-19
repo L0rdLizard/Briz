@@ -476,7 +476,13 @@ const toggleElements3 = () => {
 
 <style lang="scss" scoped>
 .custom-element1 {
-    border-color: black;
+    border-color: black !important;
+    border-width: 10px !important;
+    background-color: #ffffff;
+}
+
+.custom-element1:hover {
+    border-color: rgb(192, 37, 37);
     border-width: 10px;
     background-color: #ffffff;
 }
