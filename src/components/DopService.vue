@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-bottom: 100px;">
+    <div class="container" style="margin-bottom: 100px;" id="dop-service">
 
         <div class="row">
             <p class="m-4 mb-2 custom-text1 custom-color-text1 inter-700">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>

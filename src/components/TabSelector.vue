@@ -1,5 +1,5 @@
 <template>
-    <div class="col">
+    <div class="col" id="tab-selector">
         <div class="row m-0">
             <div class="col-9 square-container rounded-5 p-1 menu1">
                 <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">

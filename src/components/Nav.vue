@@ -10,54 +10,20 @@
                 <div class="collapse navbar-collapse custom-div2" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item mx-3 dropdown">
-                            <a class="nav-link inter-400 dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown">Сервисы и
-                                услуги</a>
-                            <div class="dropdown-menu p-0 pt-4 pb-4" aria-labelledby="navbarDropdown">
-                                <div class="container p-0 pe-4 ps-2">
-                                    <div class="row">
-                                        <div class="col">
-                                            <a class="dropdown-item" href="#">Онлайн-сервисы</a>
-                                            <a class="dropdown-item" href="#">Покупка билетов</a>
-                                            <!-- <div class="dropdown-divider"></div> -->
-                                            <a class="dropdown-item" href="#">Управление бронирование</a>
-                                            <a class="dropdown-item" href="#">Онлайн-регистрация</a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-item" href="#">Услуги</a>
-                                            <a class="dropdown-item" href="#">Выбор места</a>
-                                            <a class="dropdown-item" href="#">Перевозка питомцев</a>
-                                            <a class="dropdown-item" href="#">Несопровождаемый ребенок</a>
-                                            <a class="dropdown-item" href="#">Оплата долями</a>
-                                            <a class="dropdown-item" href="#">Групповое бронирование</a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-item" href="#">От партнеров</a>
-                                            <a class="dropdown-item" href="#">Отели</a>
-                                            <a class="dropdown-item" href="#">Трансфер</a>
-                                            <a class="dropdown-item" href="#">Авто</a>
-                                            <a class="dropdown-item" href="#">Экскурсии</a>
-                                            <a class="dropdown-item" href="#">Билеты на Аэроэкспресс</a>
-                                            <a class="dropdown-item" href="#">Перевозка грузов</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                            <RouterLink class="nav-link inter-400" to="/#tab-selector" >Сервисы и услуги</RouterLink>
                         </li>
 
                         <li class="nav-item mx-3">
                             <a class="nav-link inter-400" href="#">Информация</a>
                         </li>
+
                         <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Бриз Бонус</a>
+                            <a class="nav-link inter-400" href="#">Билеты</a>
                         </li>
+
                         <li class="nav-item mx-3">
                             <!-- <a class="nav-link inter-400" href="/#best-offer">Пассажирам</a> -->
                             <RouterLink class="nav-link inter-400" to="/#best-offer">Пассажирам</RouterLink>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Бизнесу</a>
                         </li>
                     </ul>
 
@@ -135,7 +101,7 @@ ul {
 }
 
 .custom-div2 {
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 .nav-link {
