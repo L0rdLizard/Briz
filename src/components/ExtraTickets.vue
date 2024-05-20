@@ -27,19 +27,6 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio5">
                     5</label>
 
-                <!-- <input type="radio" class="btn-check" name="btnradio1" id="btnradio5" autocomplete="off" value="5">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio5">
-                    5</label> -->
-
-                <!-- <input type="radio" class="btn-check" name="btnradio1" id="btnradio6" autocomplete="off"
-                    value="6">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1"
-                    for="btnradio6"> 6</label>
-
-                    <input type="radio" class="btn-check" name="btnradio1" id="btnradio6" autocomplete="off"
-                    value="6">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1"
-                    for="btnradio6"> 6</label> -->
             </div>
         </div>
     </div>

@@ -144,9 +144,6 @@ ul {
         margin: 10px 0;
     }
 
-    // .custom-div {
-    //     height: auto;
-    // }
 }
 
 @media (max-width: 550px) {
