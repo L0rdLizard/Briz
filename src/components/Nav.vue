@@ -41,7 +41,6 @@
                                             <a class="dropdown-item" href="#">Перевозка грузов</a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </li>
