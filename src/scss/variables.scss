@@ -48,6 +48,39 @@ $colors: (
         "slnt" 0;
 }
 
+@font-face {
+    font-family: 'Gunterz';
+    src: url('/Gunterz-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heliosect';
+    src: url('/heliosext.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url('/MinionPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gunterz {
+    font-family: 'Gunterz', sans-serif;
+}
+
+.helio {
+    font-family: 'Heliosect', sans-serif;
+}
+
+.minion {
+    font-family: 'MinionPro', sans-serif;
+}
+
 // body {
 //     zoom: 0.85;
 // }
