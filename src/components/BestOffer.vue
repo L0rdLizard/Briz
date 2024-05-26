@@ -8,8 +8,8 @@
                     <p class="m-4 mt-0 custom-text2 custom-color-text2 inter-700">БИЛЕТЫ ПО ВЫГОДНЫМ ЦЕНАМ</p>
                 </div>
                 <div class="col m-4 mb-2 d-flex justify-content-end align-items-center">
-                    <button class="m-2" @click="scrollLeft">Назад</button>
-                    <button class="m-2" @click="scrollRight">Вперед</button>
+                    <button class="m-2 chevron" @click="scrollLeft"> <img class="" src="/chevron-left.png" height="34" alt="Назад"> </button>
+                    <button class="m-2 chevron" @click="scrollRight"> <img class="" src="/chevron-right.png" height="34" alt="Вперёд"> </button>
                 </div>
             </div>
 
@@ -108,6 +108,13 @@ export default {
     min-width: 100%;
     min-height: 200px;
     overflow-x: auto;
+}
+
+.chevron {
+    border-width: 0pc;
+    border-radius: 0pc;
+    background-color: white;
+
 }
 
 .cards {
