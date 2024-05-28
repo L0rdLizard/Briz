@@ -4,15 +4,6 @@
             src="/airplane.png" alt="Photo by Irene Dávila"> -->
         <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel" style="margin-top: -120px;">
             <div class="carousel-inner" >
-                <!-- <div class="carousel-item active">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/1200/350" class="d-block w-100" alt="...">
-                </div> -->
                 <div class="carousel-item active">
                     <img src="/airplane.png" class="d-block w-100" alt="...">
                 </div>

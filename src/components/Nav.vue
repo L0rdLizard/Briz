@@ -7,9 +7,9 @@
                 </a>
 
                 <!-- d-flex justify-content-center align-items-center -->
-                <div class="collapse navbar-collapse custom-div2 ms-5" id="navbarNav">
-                    <ul class="navbar-nav mr-auto mt-0">
-                        <li class="nav-item mx-3 dropdown">
+                <div class="collapse navbar-collapse custom-div2 ms-5 me-0" id="navbarNav">
+                    <ul class="navbar-nav mr-auto mt-0 me-0">
+                        <li class="nav-item mx-4 dropdown">
                             <a class="nav-link helio dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">Сервисы и услуги</a>
                             <div class="dropdown-menu p-0 pt-4 pb-4" aria-labelledby="navbarDropdown">
@@ -44,7 +44,7 @@
                             </div>
                         </li>
 
-                        <li class="mx-3">
+                        <li class="mx-4">
                             <a class="nav-link helio" href="#">Информация</a>
                         </li>
                         <li class="mx-3">
@@ -60,7 +60,7 @@
                         <li class="ms-5">
                             <a class="nav-link helio" href="#">Личный кабинет</a>
                         </li>
-                        <li class="mx-1">
+                        <li class="ms-1">
                             <select class="nav-link form-select rounded-3 language helio" aria-label="Выбор языка">
                                 <option class="helio" selected>RU</option>
                                 <option class="helio" value="1">EN</option>
