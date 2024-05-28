@@ -6,26 +6,38 @@
         </div>
         <div class="square-container rounded-4 p-1 mt-4">
             <div class="btn-group container-fluid p-2" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" value="1"
-                    checked>
+                <button class="rounded-4 left-right-button p-3">
+                    <img class="" src="/chevron-left.png" height="28" alt="Вперёд">
+                </button>
+
+                <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" value="1">
                 <label class="btn btn-outline-primary rounded-4 custom-btn item active inter-400 p-3 m-1"
                     for="btnradio1">1</label>
 
                 <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off" value="2">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1"
-                    for="btnradio2">2</label>
+                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio2">
+                    2
+                </label>
 
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off" value="3">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1"
-                    for="btnradio3">3</label>
+                <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off" value="3"
+                    checked>
+                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio3">
+                    3
+                </label>
 
                 <input type="radio" class="btn-check" name="btnradio1" id="btnradio4" autocomplete="off" value="4">
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio4">
-                    4</label>
+                    4
+                </label>
 
                 <input type="radio" class="btn-check" name="btnradio1" id="btnradio5" autocomplete="off" value="5">
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio5">
-                    5</label>
+                    5
+                </label>
+
+                <button class="rounded-4 left-right-button p-3">
+                    <img class="" src="/chevron-right.png" height="28" alt="Вперёд">
+                </button>
 
                 <!-- <input type="radio" class="btn-check" name="btnradio1" id="btnradio5" autocomplete="off" value="5">
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 p-3 m-1" for="btnradio5">
@@ -63,7 +75,7 @@
     background-color: white;
     border-color: white;
     color: #134C67;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 18px;
 }
 
@@ -84,6 +96,20 @@
     border-color: white !important;
 }
 
+.left-right-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1f1f0;
+    background-color: #e1f1f0;
+    color: #0E4B66;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.left-right-button:hover {
+    border-color: white !important;
+}
+
 .item {
     flex: 1 1 0;
     width: 0;
@@ -93,8 +119,6 @@
     padding: 10px;
     background-color: #EF8B77;
 }
-
-
 
 .custom-border {
     width: 20px;

@@ -30,22 +30,22 @@
 
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
-            <input v-model="formData.SDate" type="text"
-                class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400" placeholder="Туда"
-                aria-label="Username" aria-describedby="basic-addon1">
+            <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
+            <input v-model="formData.SDate" type="date"
+                class="form-control custom-input-group m-0 rounded-4 custom-font inter-400" placeholder="Туда"
+                aria-label="SDate" aria-describedby="basic-addon1">
         </div>
         <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+            <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
 
-            <input v-model="formData.SDateBack" type="text"
-                class="form-control custom-input-group ms-2 rounded-4 custom-font inter-400" placeholder="Обратно"
-                aria-label="Username" aria-describedby="basic-addon1">
+            <input v-model="formData.SDateBack" type="date"
+                class="form-control custom-input-group m-0 rounded-4 custom-font inter-400" placeholder="Обратно"
+                aria-label="SDateBack" aria-describedby="basic-addon1">
         </div>
-        <div class="col-1 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <select class="form-select square-container custom-btn rounded-4 custom-font inter-400"
+        <div class="col-1 square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
+            <select class="form-select square-container custom-btn rounded-4 custom-font inter-400 ms-1"
                 id="inputGroupSelect01" style="width: 100%; height: 100%;">
-                <option class="custom-font inter-400" selected>Choose...</option>
+                <option class="custom-font inter-400" selected>Choose</option>
                 <option class="custom-font inter-400" value="1">1 клиент</option>
                 <option class="custom-font inter-400" value="2">2 клиента</option>
                 <option class="custom-font inter-400" value="3">2+ клиента</option>
@@ -168,7 +168,7 @@ const swap = () => {
 }
 
 .square-container {
-    padding: 10px;
+    padding: 0px;
     background-color: #e1f1f0;
 }
 

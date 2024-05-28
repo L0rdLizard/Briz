@@ -3,10 +3,10 @@
         <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
             <div class="container-liquid col-2">
                 <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;"> 9:15 </p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Калининград</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1"> {{ formData.SFrom }} </p>
                 <p class="custom-font inter-400 mt-1 mb-1">Храброво</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
@@ -181,7 +181,15 @@
                         <img class="ms-2" src="/plane-arrival.png" height="34" alt="Описание иконки">
                     </p>
                 </div>
-                <hr class="custom-hr bg-main1 border-color-main1" />
+                <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
+
+                <div class="row pt-0 mb-0 mt-0">
+                    <p class="col d-flex justify-content-start align-items-start custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">KGD</p>
+                    <p class="col d-flex justify-content-end align-items-end custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">LED</p>
+                </div>
+
             </div>
 
             <div class="container-liquid col-2 " style="text-align: right;">
@@ -328,7 +336,14 @@
                         <img class="ms-2" src="/plane-arrival.png" height="34" alt="Описание иконки">
                     </p>
                 </div>
-                <hr class="custom-hr bg-main1 border-color-main1" />
+                <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
+
+                <div class="row pt-0 mb-0 mt-0">
+                    <p class="col d-flex justify-content-start align-items-start custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">KGD</p>
+                    <p class="col d-flex justify-content-end align-items-end custom-font inter-400"
+                        style="font-weight: 600; font-size: 18px;">LED</p>
+                </div>
             </div>
 
             <div class="container-liquid col-2 " style="text-align: right;">
