@@ -1,6 +1,6 @@
 <template>
     <!-- <hr class="custom-hr bg-main1 border-color-main1" /> -->
-    <div class="py-3 d-flex justify-content-between align-items-center bg-main2">
+    <div class="py-1 d-flex justify-content-between align-items-center bg-main2">
         <!-- <section>
             <Refs /> <a href="https://github.com/L0rdLizard" class="text-decoration-none"
                 title="My Github">L0rdLizard</a>
@@ -15,11 +15,11 @@
                 </svg>
             </a>
         </section> -->
-        <div class="container p-0 pe-4 ps-2">
-            <div class="row mt-2 mb-3">
+        <div class="container p-0 pe-4 ps-4">
+            <div class="row mt-0 mb-3">
                 <div class="col ">
                     <div>
-                        <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top mb-1">
+                        <img src="/logo.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
                     </div>
                     <div class="mt-2">
                         <a class="dropdown-item" href="#">Онлайн-сервисы</a>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="mt-2">
+                    <div class="mt-4">
                         <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">Услуги</a>
                     </div>
                     <div class="mt-1">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="mt-2">
+                    <div class="mt-4">
                         <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">Перед полётом</a>
                     </div>
                     <div class="mt-1">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="mt-2">
+                    <div class="mt-4">
                         <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">О компании</a>
                     </div>
                     <div class="mt-1">
