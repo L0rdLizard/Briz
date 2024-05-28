@@ -142,6 +142,7 @@ const swap = () => {
 </script>
 
 <style lang="scss" scoped>
+// @import "../scss/variables.scss";
 
 .grid-container {
     display: grid;
@@ -187,6 +188,7 @@ const swap = () => {
 .square-container2 {
     padding: 10px;
     background-color: #EF8B77;
+    // background-color: $ral3022;
 }
 
 .custom-btn {

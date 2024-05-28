@@ -50,7 +50,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
+// @import "../scss/variables.scss";
 .custom-text1 {
     font-size: 2rem;
 }
@@ -60,11 +60,13 @@
 }
 
 .bg {
-    background-color: $ral3022;
+    // background-color: $ral3022;
+    background-color: #EF8B77;
     border-width: 0px;
 }
 
 .btn-primary:hover {
-    background-color: $ral3022;
+    background-color: #EF8B77;
+    // background-color: $ral3022;
 }
 </style>

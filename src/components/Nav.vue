@@ -102,7 +102,7 @@ const isActive = (path: string) => path === activeRoute.value;
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
+// @import "../scss/variables.scss";
 
 ul {
     list-style: none;
@@ -115,7 +115,8 @@ ul {
 .language {
     border-radius: 0%;
     border-width: 0px;
-    background-color: $nav;
+    // background-color: $nav;
+    border-color: #E8E8E8;
 }
 
 .custom-hr {
@@ -134,12 +135,13 @@ ul {
 }
 
 .navbar {
-    background-color: $ral5001;
+    // background-color: $ral5001;
+    background-color: #00475F;
 }
 
 .nav-link {
-    // color: #134C67;
-    color: $ral5001;
+    color: #00475F;
+    // color: $ral5001;
     // color: map-get($colors, redButton);
     font-weight: 600;
 }
