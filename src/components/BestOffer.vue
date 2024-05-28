@@ -14,7 +14,7 @@
             </div>
 
 
-            <section class="cards" id="cardsID">
+            <section class="cards" ref="cardsID">
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
@@ -81,7 +81,7 @@
 </template>
 
 
-<script>
+<!-- <script>
 export default {
     name: 'CardComponent',
     methods: {
@@ -100,7 +100,36 @@ export default {
         }
     }
 };
+</script> -->
+
+<script lang="ts" setup>
+import { ref } from 'vue';
+
+const cardsID = ref<HTMLElement | null>(null);
+
+const scrollLeft = () => {
+    console.log('scrollLeft called');
+    if (cardsID.value) {
+        cardsID.value.scrollBy({
+            left: -310,
+            behavior: 'smooth'
+        });
+    }
+};
+
+const scrollRight = () => {
+    console.log('scrollRight called');
+    if (cardsID.value) {
+        cardsID.value.scrollBy({
+            left: 310,
+            behavior: 'smooth'
+        });
+    }
+};
 </script>
+
+
+
 
 <style lang="scss" scoped>
 .cards {
