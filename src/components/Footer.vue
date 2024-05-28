@@ -19,7 +19,7 @@
             <div class="row mt-0 mb-3">
                 <div class="col ">
                     <div>
-                        <img src="/logo.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
+                        <img src="/logoBriz.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
                     </div>
                     <div class="mt-2">
                         <a class="dropdown-item" href="#">Онлайн-сервисы</a>

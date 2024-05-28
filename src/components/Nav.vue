@@ -3,7 +3,7 @@
         <div class="bg-nav m-0 p-0 container-fluid">
             <div class="container p-0 d-flex justify-content-center align-items-center custom-div">
                 <a class="navbar-brand d-flex mb-2" href="/">
-                    <img src="/logo.png" alt="" height="64" class="d-inline-block align-text-top">
+                    <img src="/logoBriz.png" alt="" height="64" class="d-inline-block align-text-top">
                 </a>
 
                 <!-- d-flex justify-content-center align-items-center -->
