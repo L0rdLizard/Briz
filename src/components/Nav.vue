@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-main1 p-0 fixed-top pb-2">
+    <nav class="navbar navbar-expand-lg p-0 fixed-top pb-2">
         <div class="bg-nav m-0 p-0 container-fluid">
             <div class="container p-0 d-flex justify-content-center align-items-center custom-div">
                 <a class="navbar-brand d-flex mb-2" href="/">
@@ -102,6 +102,8 @@ const isActive = (path: string) => path === activeRoute.value;
 </script>
 
 <style lang="scss" scoped>
+@import "../scss/variables.scss";
+
 ul {
     list-style: none;
 }
@@ -113,7 +115,7 @@ ul {
 .language {
     border-radius: 0%;
     border-width: 0px;
-    background-color: #E8E8E8;
+    background-color: $nav;
 }
 
 .custom-hr {
@@ -131,8 +133,14 @@ ul {
     margin-left: 100px;
 }
 
+.navbar {
+    background-color: $ral5001;
+}
+
 .nav-link {
-    color: #134C67;
+    // color: #134C67;
+    color: $ral5001;
+    // color: map-get($colors, redButton);
     font-weight: 600;
 }
 

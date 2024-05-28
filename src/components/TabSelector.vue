@@ -108,6 +108,7 @@ function swap(event: any) {
 </script>
 
 <style lang="scss" scoped>
+@import "../scss/variables.scss";
 @media (max-width: 800px) {
     .menu1 {
         display: none;
@@ -141,7 +142,8 @@ function swap(event: any) {
 
 .square-container2 {
     padding: 10px;
-    background-color: #EF8B77;
+    // background-color: #EF8B77;
+    background-color: $ral3022;
 }
 
 .custom-btn {
