@@ -7,13 +7,12 @@
             <div class="col-md pb-2">
                 <div class="card w-auto rounded-4" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
-                        <img src="/airplane.png" class="card-img-top rounded-4" alt="...">
+                        <img src="/place.jpg" class="card-img-top rounded-4" alt="...">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Выбор места</h5>
+                        <p class="card-text mb-4">Выберите себе место в самолёте заранее!</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -21,13 +20,12 @@
             <div class="col-md pb-2">
                 <div class="card w-auto rounded-4" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
-                        <img src="/test.jpg" class="card-img-top rounded-4" alt="...">
+                        <img src="/lunch.jpg" class="card-img-top rounded-4" alt="...">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Еда на заказ</h5>
+                        <p class="card-text mb-4">Выбор еды заранее</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -35,13 +33,12 @@
             <div class="col-md pb-2">
                 <div class="card w-auto rounded-4" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
-                        <img src="/holo.gif" class="card-img-top rounded-4" alt="...">
+                        <img src="/pet.jpg" class="card-img-top rounded-4" alt="...">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Перевозка питомцев</h5>
+                        <p class="card-text mb-4">Путешествие с питомцем</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
                     </div>
                 </div>
             </div>
