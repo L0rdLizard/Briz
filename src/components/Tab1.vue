@@ -1,21 +1,22 @@
 <template>
-    <div class="row mt-4 mb-0 ms-0 me-2 gap-4">
-        <div class="col-4 m-1">
+    <div class="row mt-4 mb-0 ms-0 me-2 gap-4 grid-container2">
+        <div class=" m-1">
             <div class="row ">
                 <p class="col custom-font inter-400">Вылет</p>
-                <p class="col custom-font inter-400">Прибытие</p>
+                <p class="col custom-font inter-400 ms-5">Прибытие</p>
             </div>
         </div>
 
-        <div class="col-2 m-1">
+        <div class=" m-1">
             <p class="custom-font inter-400">Туда</p>
         </div>
-        <div class="col-2 m-1">
+
+        <div class="ms-3 m-1">
             <p class="custom-font inter-400">Обратно</p>
         </div>
     </div>
-    <div class="row ms-0 mb-0 gap-4" style="margin-top: -16px;">
-        <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+    <div class="row ms-0 mb-0 gap-4 grid-container" style="margin-top: -16px;">
+        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <div class="row">
                 <input v-model="formData.SFrom" type="text" ref="input1"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
@@ -29,29 +30,29 @@
             </div>
 
         </div>
-        <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
             <input v-model="formData.SDate" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font inter-400" placeholder="Туда"
                 aria-label="SDate" aria-describedby="basic-addon1">
         </div>
-        <div class="col-2 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
 
             <input v-model="formData.SDateBack" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font inter-400" placeholder="Обратно"
                 aria-label="SDateBack" aria-describedby="basic-addon1">
         </div>
-        <div class="col-1 square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
-            <select class="form-select square-container custom-btn rounded-4 custom-font inter-400 ms-1"
+        <div class=" square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
+            <select class="form-select square-container custom-btn rounded-4 custom-font inter-400 px-3"
                 id="inputGroupSelect01" style="width: 100%; height: 100%;">
-                <option class="custom-font inter-400" selected>Choose</option>
+                <option class="custom-font inter-400" selected>1 клиент</option>
                 <option class="custom-font inter-400" value="1">1 клиент</option>
                 <option class="custom-font inter-400" value="2">2 клиента</option>
                 <option class="custom-font inter-400" value="3">2+ клиента</option>
             </select>
         </div>
-        <div class="col-2 square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
+        <div class="square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
             <button @click="submitForm" type="button"
                 class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
                 style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
@@ -141,6 +142,17 @@ const swap = () => {
 </script>
 
 <style lang="scss" scoped>
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 7fr 2fr 2fr 2fr 4fr; 
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 5fr 2fr 7fr; 
+}
+
 @media (max-width: 800px) {
     .menu1 {
         display: none;
