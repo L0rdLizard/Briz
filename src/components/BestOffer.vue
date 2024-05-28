@@ -87,14 +87,14 @@ export default {
     methods: {
         scrollLeft() {
             cardsID.scrollBy({
-                left: -310, // Измените значение сдвига на ваше усмотрение
+                left: -310,
                 behavior: 'smooth'
             });
         },
 
         scrollRight() {
             cardsID.scrollBy({
-                left: 310, // Измените значение сдвига на ваше усмотрение
+                left: 310,
                 behavior: 'smooth'
             });
         }

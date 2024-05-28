@@ -1,18 +1,17 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-main1 p-0 fixed-top pb-2">
         <div class="bg-nav m-0 p-0 container-fluid">
-            <div class="container p-0 custom-div d-flex justify-content-center align-items-center">
-                <a class="navbar-brand d-flex" href="/">
-                    <img src="/logo.png" alt="" height="40" class="d-inline-block align-text-top">
+            <div class="container p-0 d-flex justify-content-center align-items-center custom-div">
+                <a class="navbar-brand d-flex mb-2" href="/">
+                    <img src="/logo.png" alt="" height="64" class="d-inline-block align-text-top">
                 </a>
 
                 <!-- d-flex justify-content-center align-items-center -->
-                <div class="collapse navbar-collapse custom-div2" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse custom-div2 ms-5" id="navbarNav">
+                    <ul class="navbar-nav mr-auto mt-0">
                         <li class="nav-item mx-3 dropdown">
-                            <a class="nav-link inter-400 dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown">Сервисы и
-                                услуги</a>
+                            <a class="nav-link helio dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">Сервисы и услуги</a>
                             <div class="dropdown-menu p-0 pt-4 pb-4" aria-labelledby="navbarDropdown">
                                 <div class="container p-0 pe-4 ps-2">
                                     <div class="row">
@@ -45,45 +44,31 @@
                             </div>
                         </li>
 
-                        <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Информация</a>
+                        <li class="mx-3">
+                            <a class="nav-link helio" href="#">Информация</a>
                         </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Бриз Бонус</a>
+                        <li class="mx-3">
+                            <a class="nav-link helio" href="#">Бриз Бонус</a>
                         </li>
-                        <li class="nav-item mx-3">
+                        <li class="mx-3">
                             <!-- <a class="nav-link inter-400" href="/#best-offer">Пассажирам</a> -->
-                            <RouterLink class="nav-link inter-400" to="/#best-offer">Пассажирам</RouterLink>
+                            <RouterLink class="nav-link helio" to="/#best-offer">Пассажирам</RouterLink>
                         </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link inter-400" href="#">Бизнесу</a>
+                        <li class="mx-3">
+                            <a class="nav-link helio" href="#">Бизнесу</a>
+                        </li>
+                        <li class="ms-5">
+                            <a class="nav-link helio" href="#">Личный кабинет</a>
+                        </li>
+                        <li class="mx-1">
+                            <select class="nav-link form-select rounded-3 language helio" aria-label="Выбор языка">
+                                <option class="helio" selected>RU</option>
+                                <option class="helio" value="1">EN</option>
+                                <option class="helio" value="2">DE</option>
+                                <option class="helio" value="3">FR</option>
+                            </select>
                         </li>
                     </ul>
-
-                    <div class="col navbar-right m-0 d-flex justify-content-end me-n6">
-                        <div class="ms-5 p-0 m-0">
-                            <div class="row ">
-                                <div class="col-sm">
-                                    <p><i class="fas fa-phone inter-400"></i>Call-центр: <a class="inter-400"
-                                            href="tel:+79014535382">+7 (901) 453 53
-                                            82</a></p>
-                                </div>
-                            </div>
-                            <div class="row ">
-                                <div class="nav-item col" style="white-space: nowrap;">
-                                    <a class="nav-link" href="#">Личный кабинет</a>
-                                </div>
-                                <div class="nav-item col" style="margin-top: -6px;">
-                                    <select class="form-select" aria-label="Выбор языка">
-                                        <option selected>RU</option>
-                                        <option value="1">EN</option>
-                                        <option value="2">DE</option>
-                                        <option value="3">FR</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -121,11 +106,20 @@ ul {
     list-style: none;
 }
 
+.nav-font {
+    font-size: 18px;
+}
+
+.language {
+    border-radius: 0%;
+    border-width: 0px;
+    background-color: #E8E8E8;
+}
+
 .custom-hr {
     margin-top: 0;
     border-width: 8px;
     opacity: 1;
-    // position: relative;
     z-index: 9998;
 }
 
@@ -173,13 +167,6 @@ ul {
         justify-content: space-between;
     }
 
-    .nav-item {
-        margin: 10px 0;
-    }
-
-    // .custom-div {
-    //     height: auto;
-    // }
 }
 
 @media (max-width: 550px) {
@@ -192,12 +179,5 @@ ul {
         align-items: flex-start;
     }
 
-    .nav-item {
-        margin: 5px 0;
-    }
-
-    // .custom-div {
-    //     height: auto;
-    // }
 }
 </style>
