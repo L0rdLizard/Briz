@@ -5,17 +5,17 @@
                 <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off"
                     v-model="selectedOption" value="buy" checked>
-                    <label class="btn btn-outline-primary rounded-5 custom-btn item active inter-400"
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item active myriad"
                         for="btnradio1">Купить билет</label>
 
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off"
                     v-model="selectedOption" value="registration">
-                    <label class="btn btn-outline-primary rounded-5 custom-btn item inter-400"
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad"
                         for="btnradio2">Онлайн-регистрация</label>
 
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off"
                     v-model="selectedOption" value="management">
-                    <label class="btn btn-outline-primary rounded-5 custom-btn item inter-400"
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad"
                         for="btnradio3">Управление бронированием</label>
                 </div>
             </div>
@@ -25,25 +25,25 @@
                     <div class="modal-content">
 
                         <div class="modal-header">
-                            <h4 class="modal-title">Меню</h4>
+                            <h4 class="modal-title myriad">Меню</h4>
                             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                         </div>
 
                         <div class="modal-body" style="zoom: 100%;">
-                            <label for="btnradio1">Купить билет</label>
+                            <label for="btnradio1 myriad">Купить билет</label>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
                                 checked>
 
-                            <label for="btnradio2">Онлайн-регистрация</label>
+                            <label for="btnradio2 myriad">Онлайн-регистрация</label>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
 
-                            <label for="btnradio3">Управление бронированием</label>
+                            <label for="btnradio3 myriad">Управление бронированием</label>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                         </div>
 
                         <div class="modal-footer">
                             <button type="button" class="btn btn-outline-primary"
-                                data-bs-dismiss="modal">Закрыть</button>
+                                data-bs-dismiss="modal myriad">Закрыть</button>
                         </div>
 
                     </div>
@@ -60,7 +60,7 @@
                 <div class="form-check">
                     <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault"
                         style="margin-top: 4px;">
-                    <label class="form-check-label custom-font ms-1" for="flexCheckDefault" style="color: #134C67;">
+                    <label class="form-check-label custom-font myriad ms-1" for="flexCheckDefault" style="color: #134C67;">
                         Есть промокод
                     </label>
                 </div>

@@ -3,22 +3,22 @@
     <div class="row mt-4 ms-0 mb-0 gap-4" style="margin-top: -16px;">
         <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <input v-model="formData.SDate" type="text"
-                class="form-control custom-input-group ms-0 m-0 p-4 rounded-4 custom-font inter-400"
+                class="form-control custom-input-group ms-0 m-0 p-4 rounded-4 custom-font myriad"
                 placeholder="Фамилия клиента" aria-label="Username" aria-describedby="basic-addon1">
         </div>
         <div class="col-4 square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <input v-model="formData.SDateBack" type="text"
-                class="form-control custom-input-group ms-0 m-0 p-4 rounded-4 custom-font inter-400"
+                class="form-control custom-input-group ms-0 m-0 p-4 rounded-4 custom-font myriad"
                 placeholder="Номер бронирования или билета" aria-label="Username" aria-describedby="basic-addon1">
         </div>
 
         <div class="col-3 square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
             <button @click="submitForm" type="button"
-                class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font inter-700"
+                class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font myriad"
                 style="width: 100%; height: 100%; color: #FBFBFB;">Поиск</button>
         </div>
     </div>
-    <p class="col d-flex justify-content-start align-items-start inter-400 ps-3 pt-4"
+    <p class="col d-flex justify-content-start align-items-start myriad ps-3 pt-4"
         style="color: #9D9D9F; font-size: 18px">
         Добавляйте необходимые услуги онлайн - это дешевле, чем в аэропорту.</p>
 </template>
