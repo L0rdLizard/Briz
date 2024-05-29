@@ -4,8 +4,8 @@
         <div class="container" style="margin-bottom: 20px;">
             <div class="row">
                 <div class="col">
-                    <p class="m-4 mb-2 custom-text1 custom-color-text1 inter-700">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</p>
-                    <p class="m-4 mt-0 custom-text2 custom-color-text2 inter-700">БИЛЕТЫ ПО ВЫГОДНЫМ ЦЕНАМ</p>
+                    <p class="m-4 mb-2 custom-text1 custom-color-text1 gunterz">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</p>
+                    <p class="m-4 mt-0 custom-text2 custom-color-text2 helio">БИЛЕТЫ ПО ВЫГОДНЫМ ЦЕНАМ</p>
                 </div>
                 <div class="col m-4 mb-2 d-flex justify-content-end align-items-center">
                     <button class="m-2 chevron" @click="scrollLeft"> <img class="" src="/chevron-left.png" height="34" alt="Назад"> </button>
@@ -19,49 +19,49 @@
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Новгород <br>От 3540₽</h5>
+                        <h5 class="card-title myriad">Новгород <br>От 3540₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city2.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Калининград<br>От 2100₽</h5>
+                        <h5 class="card-title myriad">Калининград<br>От 2100₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city3.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Санкт-Петербург<br>От 5320₽</h5>
+                        <h5 class="card-title myriad">Санкт-Петербург<br>От 5320₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city4.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Москва<br>От 2360₽</h5>
+                        <h5 class="card-title myriad">Москва<br>От 2360₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Новгород<br>От 3540₽</h5>
+                        <h5 class="card-title myriad">Новгород<br>От 3540₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city2.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Калининград<br>От 2100₽</h5>
+                        <h5 class="card-title myriad">Калининград<br>От 2100₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city3.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Санкт-Петербург<br>От 5320₽</h5>
+                        <h5 class="card-title myriad">Санкт-Петербург<br>От 5320₽</h5>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city4.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Москва<br>От 2360₽</h5>
+                        <h5 class="card-title myriad">Москва<br>От 2360₽</h5>
                     </div>
                 </div>
 
@@ -163,11 +163,11 @@ const scrollRight = () => {
 }
 
 .custom-text1 {
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .custom-text2 {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .custom-card {
