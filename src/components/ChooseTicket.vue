@@ -65,20 +65,23 @@
             <div class="container-liquid col-3">
                 <p class="custom-font inter-700" style="font-size: 36px;">Базовый</p>
             </div>
+
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400" style="color: #9D9D9F;">
-                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> без багажа
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400" >
+                    <img class="mb-0" src="/circle-x.png" height="20" alt="Описание иконки"> Без багажа
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
 
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">
+            <div class="container-liquid col-3 p-2">
+                <p class="mt-0 custom-font">
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
                 </p>
                 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;"> 
+                <p class="mt-5 custom-font"> 
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен не доступен
                 </p>
             </div>
@@ -103,17 +106,21 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Продвинутый</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 10 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #c4ad17;">
-                    <img class="mb-1" src="/circle-check.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
+                <p class="mt-0 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
                 </p>
 
-                <p class="mt-5 custom-font" style="color: #c4ad17;">
-                    <img class="mb-1" src="/circle-check.png" height="20" alt="Описание иконки"> Обмен до вылета со сбором
+                <p class="mt-5 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен до вылета со сбором
                 </p>
             </div>
 
@@ -137,14 +144,22 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 20 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font inter-400">Бесплатный возврат</p>
+                <p class="mt-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
+                </p>
 
-                <p class="mt-5 custom-font inter-400">Бесплатный обмен</p>
+                <p class="mt-5 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный обмен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -163,14 +178,14 @@
         </div>
     </div>
 
-    <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white;">
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element1">
+    <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white; ">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
             <div class="container-liquid col-2">
                 <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;"> 14:15 </p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Калининград</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1"> {{ formData.SFrom }} </p>
                 <p class="custom-font inter-400 mt-1 mb-1">Храброво</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
@@ -190,6 +205,7 @@
                         <img class="ms-2" src="/plane-arrival.png" height="34" alt="Описание иконки">
                     </p>
                 </div>
+
                 <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
 
                 <div class="row pt-0 mb-0 mt-0">
@@ -198,7 +214,6 @@
                     <p class="col d-flex justify-content-end align-items-end custom-font inter-400"
                         style="font-weight: 600; font-size: 18px;">LED</p>
                 </div>
-
             </div>
 
             <div class="container-liquid col-2 " style="text-align: right;">
@@ -217,7 +232,7 @@
                         <button type="button" @click="toggleElements2"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
                             style="width: 100%; color: #FBFBFB; min-width: 234px;">
-                            {{ isVisible2 ? 'Скрыть' : 'Показать' }}
+                            {{ isVisible1 ? 'Скрыть' : 'Показать' }}
                         </button>
 
                     </div>
@@ -229,15 +244,25 @@
             <div class="container-liquid col-3">
                 <p class="custom-font inter-700" style="font-size: 36px;">Базовый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400" style="color: #9D9D9F;">без багажа</p>
-            </div>
-            <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Возврат не доступен</p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен не доступен</p>
+            <div class="container-liquid col-3 p-2">
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400" >
+                    <img class="mb-0" src="/circle-x.png" height="20" alt="Описание иконки"> Без багажа
+                </p>
+            </div>
+
+            <div class="container-liquid col-3 p-2">
+                <p class="mt-0 custom-font">
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
+                </p>
+                
+                <p class="mt-5 custom-font"> 
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен не доступен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -260,16 +285,22 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Продвинутый</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 10 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-0 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
+                </p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-5 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен до вылета со сбором
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -292,14 +323,22 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 20 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font inter-400">Бесплатный возврат</p>
+                <p class="mt-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
+                </p>
 
-                <p class="mt-5 custom-font inter-400">Бесплатный обмен</p>
+                <p class="mt-5 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный обмен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -318,14 +357,14 @@
         </div>
     </div>
 
-    <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white;">
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element1">
+    <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white; ">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
             <div class="container-liquid col-2">
                 <p class="custom-font inter-700 mt-1 mb-1" style="font-size: 36px;"> 19:15 </p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Калининград</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1"> {{ formData.SFrom }} </p>
                 <p class="custom-font inter-400 mt-1 mb-1">Храброво</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
+
                 <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
@@ -345,6 +384,7 @@
                         <img class="ms-2" src="/plane-arrival.png" height="34" alt="Описание иконки">
                     </p>
                 </div>
+
                 <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
 
                 <div class="row pt-0 mb-0 mt-0">
@@ -371,8 +411,9 @@
                         <button type="button" @click="toggleElements3"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font inter-700"
                             style="width: 100%; color: #FBFBFB; min-width: 234px;">
-                            {{ isVisible3 ? 'Скрыть' : 'Показать' }}
+                            {{ isVisible1 ? 'Скрыть' : 'Показать' }}
                         </button>
+
                     </div>
                 </div>
             </div>
@@ -382,15 +423,25 @@
             <div class="container-liquid col-3">
                 <p class="custom-font inter-700" style="font-size: 36px;">Базовый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400" style="color: #9D9D9F;">без багажа</p>
-            </div>
-            <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Возврат не доступен</p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен не доступен</p>
+            <div class="container-liquid col-3 p-2">
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400" >
+                    <img class="mb-0" src="/circle-x.png" height="20" alt="Описание иконки"> Без багажа
+                </p>
+            </div>
+
+            <div class="container-liquid col-3 p-2">
+                <p class="mt-0 custom-font">
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
+                </p>
+                
+                <p class="mt-5 custom-font"> 
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен не доступен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -413,16 +464,22 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Продвинутый</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 10 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-0 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
+                </p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-5 custom-font" >
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен до вылета со сбором
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -445,14 +502,22 @@
                 <p class="custom-font inter-700" style="font-size: 36px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
-                <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400">Багаж 1 место до 20 кг</p>
+                <p class="mb-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
+                </p>
+                <p class="custom-font inter-400 ms-4">10 кг, 40x30x20 см</p>
+                <p class="mt-4 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font inter-400">Бесплатный возврат</p>
+                <p class="mt-0 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
+                </p>
 
-                <p class="mt-5 custom-font inter-400">Бесплатный обмен</p>
+                <p class="mt-5 custom-font inter-400">
+                    <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный обмен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -542,7 +607,7 @@ const toggleElements3 = () => {
 }
 
 .custom-font {
-    font-size: 18;
-    color: #2C6179;
+    font-size: 18px;
+    color: #134C67;
 }
 </style>
