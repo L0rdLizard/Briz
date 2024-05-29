@@ -21,7 +21,7 @@
                     <div>
                         <img src="/logoBriz.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
                     </div>
-                    <div class="mt-2">
+                    <div class="mt-2 ms-2">
                         <a class="dropdown-item" href="#">Онлайн-сервисы</a>
                         <a class="dropdown-item" href="#">Покупка билетов</a>
                         <a class="dropdown-item" href="#">Управление бронирование</a>

@@ -5,7 +5,7 @@
             <p class="m-4 mb-2 custom-text1 custom-color-text1 inter-700">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
             <p class="m-4 mt-0 custom-text2 custom-color-text2 inter-700">ДЛЯ ВАШЕГО КОМФОРТНОГО ПУТЕШЕСТВИЯ</p>
             <div class="col-md pb-2">
-                <div class="card w-auto rounded-4" style="width: 18rem;">
+                <div class="card w-auto rounded-4 shadow" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
                         <img src="/place.jpg" class="card-img-top rounded-4" alt="...">
                     </div>
@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-md pb-2">
-                <div class="card w-auto rounded-4" style="width: 18rem;">
+                <div class="card w-auto rounded-4 shadow" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
                         <img src="/lunch.jpg" class="card-img-top rounded-4" alt="...">
                     </div>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="col-md pb-2">
-                <div class="card w-auto rounded-4" style="width: 18rem;">
+                <div class="card w-auto rounded-4 shadow" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
                         <img src="/pet.jpg" class="card-img-top rounded-4" alt="...">
                     </div>

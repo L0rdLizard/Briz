@@ -152,7 +152,7 @@ ul {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: 29px;
-    left: -637px;
+    left: -506px;
     right: 0px;
     // width: 99vw;
     width: 207vb;

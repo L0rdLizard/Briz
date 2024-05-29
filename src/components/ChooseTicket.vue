@@ -68,12 +68,19 @@
             <div class="container-liquid col-3 p-2">
                 <p class="mb-0 custom-font inter-400">Ручная кладь 1 место</p>
                 <p class="custom-font inter-400">10 кг, 40x30x20 см</p>
-                <p class="mt-4 custom-font inter-400" style="color: #9D9D9F;">без багажа</p>
+                <p class="mt-4 custom-font inter-400" style="color: #9D9D9F;">
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> без багажа
+                </p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Возврат не доступен</p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен не доступен</p>
+                <p class="mt-0 custom-font" style="color: #9D9D9F;">
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
+                </p>
+                
+                <p class="mt-5 custom-font" style="color: #9D9D9F;"> 
+                    <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Обмен не доступен
+                </p>
             </div>
 
             <div class="container-liquid col-3">
@@ -101,11 +108,13 @@
                 <p class="mt-4 custom-font inter-400">Багаж 1 место до 10 кг</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mt-0 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-0 custom-font" style="color: #c4ad17;">
+                    <img class="mb-1" src="/circle-check.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
+                </p>
 
-                <p class="mt-5 custom-font" style="color: #9D9D9F;">Обмен до вылета со
-                    сбором</p>
+                <p class="mt-5 custom-font" style="color: #c4ad17;">
+                    <img class="mb-1" src="/circle-check.png" height="20" alt="Описание иконки"> Обмен до вылета со сбором
+                </p>
             </div>
 
             <div class="container-liquid col-3">
