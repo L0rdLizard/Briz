@@ -61,8 +61,18 @@
                         <a class="dropdown-item" href="#">Направления</a>
                     </div>
                 </div>
+
+            </div>
+            <div class="col d-flex flex-column">
+                <div class="mt-auto rounded-4">
+                    <p class="custom-text gunterz ms-3"><i class="fas fa-phone"></i>
+                    <p class="inter-400 custom-text gunterz" href="tel:+79014535382">Call-центр: +7(901) 453 53 82
+                    </p>
+                    </p>
+                </div>
             </div>
         </div>
+
 
         <!-- <section class="d-flex">
       <a href="#" @click="(event) => changeTheme(event)" class="text-decoration-none">
@@ -104,6 +114,19 @@
 </script>
 
 <style lang="scss" scoped>
+.custom-tel {
+    background-color: #EF8B77;
+    align-content: center;
+    align-items: center;
+}
+
+.custom-text {
+    color: #56869C;
+    font-size: 18px;
+    align-content: center;
+    align-items: center;
+}
+
 .custom-hr {
     margin-top: 0;
     border-width: 1px;

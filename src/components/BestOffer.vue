@@ -19,49 +19,49 @@
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Новгород <br>От 3540₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city2.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Калининград<br>От 2100₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city3.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Санкт-Петербург<br>От 5320₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city4.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Москва<br>От 2360₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Новгород<br>От 3540₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city2.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Калининград<br>От 2100₽</h5>
                     </div>
                 </div>
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city3.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Санкт-Петербург<br>От 5320₽</h5>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city4.png" class="card-img custom-card rounded-4" alt="...">
                     <div class="row card-img-overlay d-flex justify-content-bottom align-items-end">
-                        <h5 class="card-title">Card title <br> Card text</h5>
+                        <h5 class="card-title">Москва<br>От 2360₽</h5>
                     </div>
                 </div>
 

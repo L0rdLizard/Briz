@@ -20,6 +20,10 @@ $colors: (
     textc: #134C67,
     text1: #124B66,
     text2: #56869C,
+    style1: #B0DCDE,
+    style2: #1DABAB,
+    style3: #134C67,
+    style4: #EF8B77,
 );
 
 @each $color-name, $color-value in $colors {
