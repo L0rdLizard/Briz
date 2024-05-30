@@ -3,33 +3,33 @@
         <div class="bg-nav m-0 p-0 container-fluid">
             <div class="container p-0 d-flex justify-content-center align-items-center custom-div">
                 <a class="navbar-brand d-flex mb-2" href="/">
-                    <img src="/logoBriz.png" alt="" height="64" class="d-inline-block align-text-top">
+                    <img src="/logoBriz.png" alt="" height="64" class="d-inline-block align-text-top logo">
                 </a>
 
                 <!-- d-flex justify-content-center align-items-center -->
-                <div class="collapse navbar-collapse custom-div2 ms-5 me-0" id="navbarNav">
+                <div class="collapse navbar-collapse custom-div2 me-0" id="navbarNav">
                     <ul class="navbar-nav mr-auto mt-0 me-0">
-                        <li class="nav-item mx-4">
+                        <li class="nav-item1">
                             <a class="nav-link helio" href="#">Сервисы и услуги</a>
                         </li>
 
-                        <li class="mx-4">
+                        <li class="nav-item1">
                             <a class="nav-link helio" href="#">Информация</a>
                         </li>
-                        <li class="mx-3">
+                        <li class="nav-item1">
                             <a class="nav-link helio" href="#">Бриз Бонус</a>
                         </li>
-                        <li class="mx-3">
+                        <li class="nav-item1">
                             <!-- <a class="nav-link inter-400" href="/#best-offer">Пассажирам</a> -->
                             <RouterLink class="nav-link helio" to="/#best-offer">Пассажирам</RouterLink>
                         </li>
-                        <li class="mx-3">
+                        <li class="nav-item1">
                             <a class="nav-link helio" href="#">Бизнесу</a>
                         </li>
-                        <li class="ms-5">
+                        <li class="nav-item2">
                             <a class="nav-link helio" href="#">Личный кабинет</a>
                         </li>
-                        <li class="ms-1">
+                        <li class="">
                             <select class="nav-link form-select rounded-3 language helio" aria-label="Выбор языка">
                                 <option class="helio" selected>RU</option>
                                 <option class="helio" value="1">EN</option>
@@ -100,7 +100,7 @@ ul {
 }
 
 .custom-div2 {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .navbar {
@@ -115,28 +115,40 @@ ul {
     font-weight: 600;
 }
 
-.dropdown-menu {
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top: 29px;
-    left: -506px;
-    right: 0px;
-    // width: 99vw;
-    width: 207vb;
-    position: absolute;
-    z-index: 9999;
-    background-color: #F5F5F5;
+.nav-item1 {
+    margin-left: 1.5cap;
+    margin-right: 1.5cap;
 }
 
-@media (max-width: 1200px) {
+.nav-item2 {
+    margin-left: 6cap;
+    margin-right: 1cap;
+}
+
+
+@media (max-width: 1440px) {
+
     .custom-div2 {
         margin-left: 0px;
     }
+
+    .nav-item1 {
+    margin-left: 0cap;
+    margin-right: 0cap;
+    }
+
+    .nav-item2 {
+        margin-left: 0cap;
+        margin-right: 0cap;
+    }
+
+    .nav-link{
+        font-size: 14px;
+    }
+
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .navbar {
         flex-direction: column;
     }
@@ -146,6 +158,20 @@ ul {
         justify-content: space-between;
     }
 
+    .nav-item1 {
+    margin-left: 0cap;
+    margin-right: 0cap;
+    }
+
+    .nav-item2 {
+        margin-left: 0cap;
+        margin-right: 0cap;
+    }
+
+
+    .nav-link{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -158,5 +184,17 @@ ul {
         align-items: flex-start;
     }
 
+    .nav-link{
+        font-size: 14px;
+    }
+    
+    .logo {
+        height: 54px;
+        margin-right: 0px;
+    }
+
+    .navbar-toggler{
+        margin-right: 20px;
+    }
 }
 </style>
