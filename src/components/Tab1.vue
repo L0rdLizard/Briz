@@ -1,5 +1,5 @@
 <template>
-    <div class="row mt-4 mb-0 ms-0 me-2 gap-4 grid-container2">
+    <div class="row ms-0 me-2 gap-4 grid-container2">
         <div class="m-1">
             <div class="row ">
                 <p class="col custom-font myriad">Вылет</p>
@@ -15,14 +15,14 @@
             <p class="custom-font myriad">Обратно</p>
         </div>
     </div>
-    <div class="row ms-0 mb-0 gap-4 grid-container" style="margin-top: -16px;">
-        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+    <div class="row ms-0 mb-0 gap-4 grid-container" >
+        <div class="square-container rounded-4">
             <div class="row">
                 <input v-model="formData.SFrom" type="text" ref="input1"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
                     placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
                 <!-- <button type="button" class="col p-0 "></button> -->
-                <button type="button" class="btn col-1 p-0" @click="swap"><span
+                <button type="button" class="col btn col-1 p-0" @click="swap"><span
                         class="bi-arrow-left-right"></span></button>
                 <input v-model="formData.STo" type="text" ref="input2"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
@@ -30,20 +30,20 @@
             </div>
 
         </div>
-        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+        <div class=" square-container rounded-4">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
             <input v-model="formData.SDate" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Туда"
                 aria-label="SDate" aria-describedby="basic-addon1">
         </div>
-        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+        <div class=" square-container rounded-4">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
 
             <input v-model="formData.SDateBack" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Обратно"
                 aria-label="SDateBack" aria-describedby="basic-addon1">
         </div>
-        <div class=" square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
+        <div class="rounded-4 p-0">
             <select class="form-select square-container custom-btn rounded-4 custom-font myriad px-3"
                 id="inputGroupSelect01" style="width: 100%; height: 100%;">
                 <option class="custom-font myriad" selected>1 клиент</option>
@@ -52,15 +52,15 @@
                 <option class="custom-font myriad" value="3">2+ клиента</option>
             </select>
         </div>
-        <div class="square-container2 rounded-4 p-0 d-flex justify-content-center align-items-center">
+        <div class="square-container2 rounded-4  d-flex justify-content-center align-items-center">
             <button @click="submitForm" type="button"
-                class="square-container2 custom-btn p-0 m-0 rounded-4 custom-font myriad"
+                class="square-container2 custom-btn  m-0 rounded-4 custom-font myriad"
                 style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
         </div>
     </div>
     <div class="row">
 
-        <div class="col-2 ms-1 me-2" style="margin-top: 16px;">
+        <div class="col-2 ms-1 me-5" style="margin-top: 16px;">
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault1"
                     style="margin-top: 4px;">
@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <div class="col-2 ms-1 me-2" style="margin-top: 16px;">
+        <div class="col-2 ms-5 me-2" style="margin-top: 16px;">
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault2"
                     style="margin-top: 4px;">
@@ -137,35 +137,35 @@ const swap = () => {
 <style lang="scss" scoped>
 // @import "../scss/variables.scss";
 
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .grid-container {
+    margin-top: 0px;
     display: grid;
     grid-template-columns: 7fr 2fr 2fr 2fr 4fr; 
 }
 
 .grid-container2 {
+    margin-top: 18px;
+    margin-bottom: -12px;
     display: grid;
     grid-template-columns: 5fr 2fr 7fr; 
 }
 
-@media (max-width: 800px) {
-    .menu1 {
-        display: none;
-    }
-
-    .menu2 {
-        display: block;
-    }
-}
-
-@media (min-width: 801px) {
-    .menu1 {
-        display: block;
-    }
-
-    .menu2 {
-        display: none;
-    }
-}
 
 .custom-input-group {
     border-color: #e1f1f0;
@@ -174,12 +174,12 @@ const swap = () => {
 }
 
 .square-container {
-    padding: 0px;
+    padding: 4px;
     background-color: #e1f1f0;
 }
 
 .square-container2 {
-    padding: 10px;
+    padding: 0px;
     background-color: #EF8B77;
     // background-color: $ral3022;
 }
@@ -219,5 +219,40 @@ const swap = () => {
 .item {
     flex: 1 1 0;
     width: 0;
+}
+
+@media (max-width: 1280px) {
+    .grid-container {
+        grid-template-columns: auto;
+        margin-right: 50%;
+        margin-top: 20px;
+        // margin-left: 200px;
+    }
+
+
+    .square-container2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .grid-container2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        margin-right: 0px;
+
+    }
+
+}
+
+@media (max-width: 550px) {
+    .grid-container {
+        margin-right: 0px;
+
+    }
+
 }
 </style>

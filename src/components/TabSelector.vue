@@ -131,20 +131,6 @@ function swap(event: any) {
     display: none;
 }
 
-@media (max-width: 1280px) {}
-
-@media (max-width: 768px) {
-
-    .menu1 {
-        display: none;
-    }
-
-    .menu2 {
-        display: block;
-    }
-}
-
-@media (max-width: 550px) {}
 
 .custom-input-group {
     border-color: #e1f1f0;
@@ -198,4 +184,20 @@ function swap(event: any) {
     flex: 1 1 0;
     width: 0;
 }
+
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 768px) {
+
+    .menu1 {
+        display: none;
+    }
+
+    .menu2 {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {}
 </style>
