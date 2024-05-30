@@ -15,7 +15,8 @@
                         </li>
 
                         <li class="nav-item1">
-                            <a class="nav-link helio" href="#">Информация</a>
+                            <!-- <a class="nav-link helio" href="#">Информация</a> -->
+                            <RouterLink class="nav-link helio" to="/Info">Информация</RouterLink>
                         </li>
 
                         <li class="nav-item1">

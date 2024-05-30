@@ -25,6 +25,17 @@ export const routes = [
       },
     ],
   },
+  {
+    path: `${baseUrl}/info`,
+    component: () => import("@/layouts/Main.vue"),
+    children: [
+      {
+        path: "",
+        name: "Info",
+        component: () => import("@/views/Info.vue"),
+      },
+    ],
+  },
 ];
 
 export const router = createRouter({
