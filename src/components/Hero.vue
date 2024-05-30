@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid g-0" >
-        <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel" style="margin-top: -120px;">
+        <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel">
             <div class="carousel-inner" >
                 <div class="carousel-item active">
                     <img src="/airplane.png" class="d-block w-100" alt="...">
@@ -28,7 +28,7 @@
     </div>
 
 
-    <div class="container mx-6 pt-4 p-4 bg-body mt-md-n6 mt-n6 position-relative rounded-5 shadow custom-div">
+    <div class="container mx-6 pt-4 p-4 mt-n6 bg-body position-relative rounded-5 shadow custom-div">
 
         <TabSelector />
 
@@ -59,65 +59,43 @@ import TabSelector from "@/components/TabSelector.vue";
     margin-top: -6rem !important;
 }
 
-@media (max-width: 2000px) {
+.custom-image {
+    margin-top: -120px;
+}
+
+
+@media (max-width: 1280px) {
     .custom-div2 {
         margin-left: 0px;
     }
 
     .custom-image {
-        margin-top: 0px;
+        margin-top: 30px;
     }
+
+    .mt-n6{
+        margin-top: -3rem !important;
+    }
+    
 }
 
-@media (max-width: 1200px) {
-    .custom-div2 {
-        margin-left: 0px;
-    }
-
+@media (max-width: 768px) {
     .custom-image {
         margin-top: 0px;
     }
-}
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .navbar-right {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nav-item {
-        margin: 10px 0;
-    }
-
-    .custom-image {
-        margin-top: 100px;
+    .mt-n6{
+        margin-top: 0rem !important;
     }
 }
 
 @media (max-width: 550px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .navbar-right {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-item {
-        margin: 5px 0;
-    }
-
     .custom-image {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
-    .custom-div {
-        margin-top: -50px;
+    .mt-n6{
+        margin-top: 0rem !important;
     }
 }
 </style>
