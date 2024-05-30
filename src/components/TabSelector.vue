@@ -4,19 +4,19 @@
             <div class="col-9 square-container rounded-5 p-1 menu1">
                 <div class="btn-group container-fluid p-1" role="group" aria-label="Basic radio toggle button group">
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off"
-                    v-model="selectedOption" value="buy" checked>
+                        v-model="selectedOption" value="buy" checked>
                     <label class="btn btn-outline-primary rounded-5 custom-btn item active myriad"
                         for="btnradio1">Купить билет</label>
 
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off"
-                    v-model="selectedOption" value="registration">
+                        v-model="selectedOption" value="registration">
                     <label class="btn btn-outline-primary rounded-5 custom-btn item myriad"
                         for="btnradio2">Онлайн-регистрация</label>
 
                     <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off"
-                    v-model="selectedOption" value="management">
-                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad"
-                        for="btnradio3">Управление бронированием</label>
+                        v-model="selectedOption" value="management">
+                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad" for="btnradio3">Управление
+                        бронированием</label>
                 </div>
             </div>
 
@@ -25,26 +25,39 @@
                     <div class="modal-content">
 
                         <div class="modal-header">
-                            <h4 class="modal-title myriad">Меню</h4>
+                            <h4 class="modal-title myriad m-2 p-2">Меню</h4>
                             <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
                         </div>
 
-                        <div class="modal-body" style="zoom: 100%;">
-                            <label for="btnradio1 myriad">Купить билет</label>
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
-                                checked>
+                        <div class="row modal-body" style="zoom: 100%;">
+                            <div class="col square-container rounded-5 p-0 m-1">
+                                <div class="btn-group container-fluid p-1" role="group"
+                                    aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check" name="btnradio11" id="btnradio1"
+                                        autocomplete="off" v-model="selectedOption" value="buy" checked>
+                                    <label class="btn btn-outline-primary rounded-5 custom-btn item active myriad p-3"
+                                        for="btnradio1">Купить билет</label>
 
-                            <label for="btnradio2 myriad">Онлайн-регистрация</label>
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                    <input type="radio" class="btn-check" name="btnradio11" id="btnradio2"
+                                        autocomplete="off" v-model="selectedOption" value="registration">
+                                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad p-3"
+                                        for="btnradio2">Онлайн-регистрация</label>
 
-                            <label for="btnradio3 myriad">Управление бронированием</label>
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                    <input type="radio" class="btn-check" name="btnradio11" id="btnradio3"
+                                        autocomplete="off" v-model="selectedOption" value="management">
+                                    <label class="btn btn-outline-primary rounded-5 custom-btn item myriad p-3"
+                                        for="btnradio3">Управление
+                                        бронированием</label>
+                                </div>
+                            </div>
                         </div>
-
+                        <!-- 
                         <div class="modal-footer">
                             <button type="button" class="btn btn-outline-primary"
                                 data-bs-dismiss="modal myriad">Закрыть</button>
-                        </div>
+                            <h4 class="modal-title myriad">Закрыть</h4>
+                            <button type="button" class="close" >&times;</button>
+                        </div> -->
 
                     </div>
                 </div>
@@ -60,13 +73,14 @@
                 <div class="form-check">
                     <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault"
                         style="margin-top: 4px;">
-                    <label class="form-check-label custom-font myriad ms-1" for="flexCheckDefault" style="color: #134C67;">
+                    <label class="form-check-label custom-font myriad ms-1" for="flexCheckDefault"
+                        style="color: #134C67;">
                         Есть промокод
                     </label>
                 </div>
             </div>
         </div>
-        
+
         <div v-if="selectedOption === 'buy'">
             <Tab1 />
         </div>
@@ -108,7 +122,19 @@ function swap(event: any) {
 
 <style lang="scss" scoped>
 @import "../scss/variables.scss";
-@media (max-width: 800px) {
+
+.menu1 {
+    display: block;
+}
+
+.menu2 {
+    display: none;
+}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 768px) {
+
     .menu1 {
         display: none;
     }
@@ -118,15 +144,7 @@ function swap(event: any) {
     }
 }
 
-@media (min-width: 801px) {
-    .menu1 {
-        display: block;
-    }
-
-    .menu2 {
-        display: none;
-    }
-}
+@media (max-width: 550px) {}
 
 .custom-input-group {
     border-color: #e1f1f0;
