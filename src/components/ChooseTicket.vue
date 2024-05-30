@@ -1,17 +1,16 @@
 <template>
     <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white; ">
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
-            <div class="container-liquid col-2">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 grid-container">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;"> 9:15 </p>
 
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.SFrom }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
 
-            <div class="container-liquid col-5 pt-0">
+            <div class="container-liquid pt-0">
                 <div class="row">
                     <p class="col d-flex justify-content-start align-items-start custom-font myriad ps-1 pb-2 mt-1 mb-1"
                         style="color: #9D9D9F;">
@@ -28,23 +27,16 @@
                 </div>
 
                 <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
-
-                <div class="row pt-0 mb-0 mt-0">
-                    <p class="col d-flex justify-content-start align-items-start custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">KGD</p>
-                    <p class="col d-flex justify-content-end align-items-end custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">LED</p>
-                </div>
+                
             </div>
 
-            <div class="container-liquid col-2 " style="text-align: right;">
+            <div class="container-liquid " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">11:45</p>
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Пулково</p>
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -59,12 +51,12 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible1">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible1">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -74,7 +66,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
                 </p>
@@ -84,7 +76,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -99,11 +91,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible1">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible1">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -112,7 +104,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad" >
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
                 </p>
@@ -122,7 +114,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -137,11 +129,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible1">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible1">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad0">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -150,7 +142,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
                 </p>
@@ -160,7 +152,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -177,18 +169,17 @@
     </div>
 
     <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white; ">
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
-            <div class="container-liquid col-2">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 grid-container">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;"> 14:15 </p>
 
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.SFrom }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
 
-            <div class="container-liquid col-5 pt-0">
+            <div class="container-liquid pt-0">
                 <div class="row">
                     <p class="col d-flex justify-content-start align-items-start custom-font myriad ps-1 pb-2 mt-1 mb-1"
                         style="color: #9D9D9F;">
@@ -206,22 +197,16 @@
 
                 <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
 
-                <div class="row pt-0 mb-0 mt-0">
-                    <p class="col d-flex justify-content-start align-items-start custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">KGD</p>
-                    <p class="col d-flex justify-content-end align-items-end custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">LED</p>
-                </div>
             </div>
 
-            <div class="container-liquid col-2 " style="text-align: right;">
+            <div class="container-liquid " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">17:45</p>
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Пулково</p>
+
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -236,12 +221,12 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible2">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible2">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -251,7 +236,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
                 </p>
@@ -261,7 +246,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -276,11 +261,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible2">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible2">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -289,7 +274,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad" >
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
                 </p>
@@ -299,7 +284,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -314,11 +299,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible2">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible2">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad0">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -327,7 +312,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
                 </p>
@@ -337,7 +322,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -354,18 +339,17 @@
     </div>
 
     <div class="container p-2 rounded-4" style="margin-top: 40px; background-color: white; ">
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 ">
-            <div class="container-liquid col-2">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 grid-container">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;"> 19:15 </p>
 
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.SFrom }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
                 <p class="mt-3">BR 0235 Boeing 737-800</p>
             </div>
 
-            <div class="container-liquid col-5 pt-0">
+            <div class="container-liquid pt-0">
                 <div class="row">
                     <p class="col d-flex justify-content-start align-items-start custom-font myriad ps-1 pb-2 mt-1 mb-1"
                         style="color: #9D9D9F;">
@@ -383,22 +367,16 @@
 
                 <hr class="custom-hr bg-main1 border-color-main1 mb-2" />
 
-                <div class="row pt-0 mb-0 mt-0">
-                    <p class="col d-flex justify-content-start align-items-start custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">KGD</p>
-                    <p class="col d-flex justify-content-end align-items-end custom-font myriad"
-                        style="font-weight: 600; font-size: 18px;">LED</p>
-                </div>
             </div>
 
-            <div class="container-liquid col-2 " style="text-align: right;">
+            <div class="container-liquid " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">21:45</p>
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
-                <p class="custom-font myriad mt-1 mb-1">Пулково</p>
+
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -413,12 +391,12 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible3">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible3">
+            <div class="container-liquid ">
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -428,7 +406,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
                 </p>
@@ -438,7 +416,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -453,11 +431,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible3">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible3">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -466,7 +444,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 10 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad" >
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат до вылета со сбором
                 </p>
@@ -476,7 +454,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -491,11 +469,11 @@
             </div>
         </div>
 
-        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2" v-if="isVisible3">
-            <div class="container-liquid col-3">
+        <div class="container-liquid row p-4 m-4 mt-3 rounded-4 custom-element2 grid-container2" v-if="isVisible3">
+            <div class="container-liquid">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mb-0 custom-font myriad0">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -504,7 +482,7 @@
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Багаж 1 место до 20 кг
                 </p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid p-2">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Бесплатный возврат
                 </p>
@@ -514,7 +492,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3">
+            <div class="container-liquid">
                 <div class="row">
                     <div class="create-line col"></div>
                     <div class="col container">
@@ -601,5 +579,36 @@ const toggleElements3 = () => {
 .custom-font {
     font-size: 18px;
     color: #134C67;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr 3fr; 
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+@media (max-width: 1280px) {
+    .create-line{
+        display: none;
+    }
+    .grid-container{
+        grid-template-columns: auto;
+    }
+    .grid-container2{
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 550px) {
+
+
 }
 </style>
