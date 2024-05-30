@@ -1,10 +1,10 @@
 <template>
     <div class="container p-4 rounded-4" style="margin-top: 140px; background-color: white;">
         <div class="container-liquid ms-2">
-            <p class="custom-font gunterz mb-0" style="font-size: 30px;">Цены на соседние даты</p>
+            <p class="custom-font gunterz mb-0" style="font-size: 30px;">Выбор билета и класса обслуживания</p>
             <p class="mb-0 custom-font helio mt-0">За перелёт в одну сторону на одного взрослого пассажира.</p>
         </div>
-        <div class="square-container rounded-4 p-1 mt-4">
+        <!-- <div class="square-container rounded-4 p-1 mt-4">
             <div class="btn-group container-fluid p-2" role="group" aria-label="Basic radio toggle button group">
                 <button class="rounded-4 left-right-button p-3" id="left-button">
                     <img class="" src="/chevron-left.png" height="28" alt="Назад">
@@ -62,7 +62,7 @@
                     <img class="" src="/chevron-right.png" height="28" alt="Вперёд">
                 </button>
             </div>
-        </div>
+        </div> -->
     </div>
 
 </template>
