@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="col-md pb-2">
+            <div class="col-md pb-2" >
                 <div class="card w-auto rounded-4 shadow" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
                         <img src="/pet.jpg" class="card-img-top rounded-4" alt="...">

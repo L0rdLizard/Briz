@@ -9,24 +9,21 @@
                 <!-- d-flex justify-content-center align-items-center -->
                 <div class="collapse navbar-collapse custom-div2 me-0" id="navbarNav">
                     <ul class="navbar-nav mr-auto mt-0 me-0">
-                        <li class="nav-item1">
-                            <a class="nav-link helio" href="#">Сервисы и услуги</a>
+                        <li class="nav-item1 right1">
+                            <RouterLink class="nav-link helio" to="/#dop-service">Сервисы и услуги</RouterLink>
+                            <!-- <a class="nav-link helio" href="#">Сервисы и услуги</a> -->
                         </li>
 
                         <li class="nav-item1">
                             <a class="nav-link helio" href="#">Информация</a>
                         </li>
-                        <li class="nav-item1">
-                            <a class="nav-link helio" href="#">Бриз Бонус</a>
-                        </li>
+
                         <li class="nav-item1">
                             <!-- <a class="nav-link inter-400" href="/#best-offer">Пассажирам</a> -->
                             <RouterLink class="nav-link helio" to="/#best-offer">Пассажирам</RouterLink>
                         </li>
-                        <li class="nav-item1">
-                            <a class="nav-link helio" href="#">Бизнесу</a>
-                        </li>
-                        <li class="nav-item2">
+
+                        <li class="nav-item2 right2">
                             <a class="nav-link helio" href="#">Личный кабинет</a>
                         </li>
                         <li class="">
@@ -125,6 +122,13 @@ ul {
     margin-right: 1cap;
 }
 
+.right1{
+    margin-left: 160px;
+}
+
+.right2{
+    margin-left: 200px;
+}
 
 @media (max-width: 1440px) {
 
@@ -133,8 +137,8 @@ ul {
     }
 
     .nav-item1 {
-    margin-left: 0cap;
-    margin-right: 0cap;
+        margin-left: 0cap;
+        margin-right: 0cap;
     }
 
     .nav-item2 {
@@ -142,7 +146,7 @@ ul {
         margin-right: 0cap;
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 14px;
     }
 
@@ -159,8 +163,8 @@ ul {
     }
 
     .nav-item1 {
-    margin-left: 0cap;
-    margin-right: 0cap;
+        margin-left: 0cap;
+        margin-right: 0cap;
     }
 
     .nav-item2 {
@@ -169,7 +173,7 @@ ul {
     }
 
 
-    .nav-link{
+    .nav-link {
         font-size: 18px;
     }
 }
@@ -184,16 +188,16 @@ ul {
         align-items: flex-start;
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 14px;
     }
-    
+
     .logo {
         height: 54px;
         margin-right: 0px;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         margin-right: 20px;
     }
 }

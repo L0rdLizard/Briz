@@ -14,7 +14,7 @@
             </div>
 
 
-            <section class="cards" ref="cardsID">
+            <section class="cards" ref="cardsID" >
 
                 <div class="card text-bg-dark rounded-4 custom-card card--content p-0">
                     <img src="/city1.png" class="card-img custom-card rounded-4" alt="...">
