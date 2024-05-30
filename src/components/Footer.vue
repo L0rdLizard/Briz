@@ -66,7 +66,7 @@
             <div class="col d-flex flex-column">
                 <div class="mt-auto rounded-4">
                     <p class="custom-text gunterz ms-3"><i class="fas fa-phone"></i>
-                    <p class="inter-400 custom-text gunterz" href="tel:+79014535382">Call-центр: +7(901) 453 53 82
+                    <p class="inter-400 custom-text helio" href="tel:+79014535382">Call-центр: +7(901) 453 53 82
                     </p>
                     </p>
                 </div>

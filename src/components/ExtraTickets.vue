@@ -1,8 +1,8 @@
 <template>
     <div class="container p-4 rounded-4" style="margin-top: 140px; background-color: white;">
         <div class="container-liquid ms-2">
-            <p class="custom-font inter-700 mb-0" style="font-size: 36px;">Цены на соседние даты</p>
-            <p class="mb-0 custom-font inter-400 mt-0">За перелёт в одну сторону на одного взрослого пассажира.</p>
+            <p class="custom-font gunterz mb-0" style="font-size: 30px;">Цены на соседние даты</p>
+            <p class="mb-0 custom-font helio mt-0">За перелёт в одну сторону на одного взрослого пассажира.</p>
         </div>
         <div class="square-container rounded-4 p-1 mt-4">
             <div class="btn-group container-fluid p-2" role="group" aria-label="Basic radio toggle button group">
@@ -14,8 +14,8 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
                     for="btnradio1">
                     <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font">12 июля, пятница</div>
-                        <div class="row justify-content-center align-items-center m-0">от 3300 ₽</div>
+                        <div class="row justify-content-center align-items-center m-0 date-font myriad">12 июля, пятница</div>
+                        <div class="row justify-content-center align-items-center m-0 myriad">от 3300 ₽</div>
                     </div>
                 </label>
 
@@ -23,8 +23,8 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
                     for="btnradio2">
                     <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font">13 июля, суббота</div>
-                        <div class="row justify-content-center align-items-center m-0 ">от 3800 ₽</div>
+                        <div class="row justify-content-center align-items-center m-0 date-font myriad">13 июля, суббота</div>
+                        <div class="row justify-content-center align-items-center m-0 myriad">от 3800 ₽</div>
                     </div>
                 </label>
 
@@ -33,9 +33,9 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
                     for="btnradio3">
                     <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font">14 июля, воскресенье
+                        <div class="row justify-content-center align-items-center m-0 date-font myriad">14 июля, воскресенье
                         </div>
-                        <div class="row justify-content-center align-items-center m-0">от 3100 ₽</div>
+                        <div class="row justify-content-center align-items-center m-0 myriad">от 3100 ₽</div>
                     </div>
                 </label>
 
@@ -43,9 +43,9 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
                     for="btnradio4">
                     <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font">15 июля, понедельник
+                        <div class="row justify-content-center align-items-center m-0 date-font myriad">15 июля, понедельник
                         </div>
-                        <div class="row justify-content-center align-items-center m-0">от 4120 ₽</div>
+                        <div class="row justify-content-center align-items-center m-0 myriad">от 4120 ₽</div>
                     </div>
                 </label>
 
@@ -53,8 +53,8 @@
                 <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
                     for="btnradio5">
                     <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font">16 июля, вторник</div>
-                        <div class="row justify-content-center align-items-center m-0">от 3600 ₽</div>
+                        <div class="row justify-content-center align-items-center m-0 date-font myriad">16 июля, вторник</div>
+                        <div class="row justify-content-center align-items-center m-0 myriad">от 3600 ₽</div>
                     </div>
                 </label>
 
