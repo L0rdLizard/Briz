@@ -39,10 +39,8 @@
 
             <div class="container-liquid col-2 " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">11:45</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Санкт-Петербург</p> -->
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
                 <p class="custom-font myriad mt-1 mb-1">Пулково</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
@@ -218,10 +216,8 @@
 
             <div class="container-liquid col-2 " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">17:45</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Санкт-Петербург</p> -->
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
                 <p class="custom-font myriad mt-1 mb-1">Пулково</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
@@ -397,10 +393,8 @@
 
             <div class="container-liquid col-2 " style="text-align: right;">
                 <p class="custom-font gunterz mt-1 mb-1" style="font-size: 36px;">21:45</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1">Санкт-Петербург</p> -->
                 <p class="custom-font myriad mt-1 mb-1"> {{ formData.STo }} </p>
                 <p class="custom-font myriad mt-1 mb-1">Пулково</p>
-                <!-- <p class="custom-font inter-400 mt-1 mb-1" style="color: #9D9D9F;">25 марта 2024 г.</p> -->
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
             </div>
 
@@ -539,13 +533,11 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent } from 'vue'
 import { ref } from 'vue'
 import { useStore } from 'vuex'
 
 const store = useStore()
 const formData = store.state.formData
-// export { formData }
 
 const isVisible1 = ref(false);
 const isVisible2 = ref(false);

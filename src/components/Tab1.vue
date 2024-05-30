@@ -131,13 +131,6 @@ const swap = () => {
     }
 }
 
-// const strfrom = ref('');
-// const strto = ref('');
-// function swap(event: any) {
-//     const strtemp = strfrom.value;
-//     strfrom.value = strto.value;
-//     strto.value = strtemp;
-// }
 
 </script>
 

@@ -13,10 +13,7 @@
 
 <script lang="ts" setup>
 import Nav from "@/components/Nav.vue";
-// import TestHero from "@/components/TestHero.vue";
-import Heads from "@/components/Heads.vue";
 import Footer from "@/components/Footer.vue";
-import Hero from "@/components/Hero.vue"
 </script>
 
 <style lang="scss" scoped>

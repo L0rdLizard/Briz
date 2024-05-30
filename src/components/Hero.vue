@@ -1,7 +1,5 @@
 <template>
     <div class="container-fluid g-0" >
-        <!-- <img style="object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7 custom-image"
-            src="/airplane.png" alt="Photo by Irene Dávila"> -->
         <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel" style="margin-top: -120px;">
             <div class="carousel-inner" >
                 <div class="carousel-item active">

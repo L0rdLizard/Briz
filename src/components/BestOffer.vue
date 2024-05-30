@@ -81,27 +81,6 @@
 </template>
 
 
-<!-- <script>
-export default {
-    name: 'CardComponent',
-    methods: {
-        scrollLeft() {
-            cardsID.scrollBy({
-                left: -310,
-                behavior: 'smooth'
-            });
-        },
-
-        scrollRight() {
-            cardsID.scrollBy({
-                left: 310,
-                behavior: 'smooth'
-            });
-        }
-    }
-};
-</script> -->
-
 <script lang="ts" setup>
 import { ref } from 'vue';
 

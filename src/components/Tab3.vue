@@ -24,11 +24,8 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-import Tab1 from "@/components/Tab1.vue";
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
-// import { store } from '@/store';
 
 const formData = ({
     SFrom: '',

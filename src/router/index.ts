@@ -15,24 +15,6 @@ export const routes = [
     ],
   },
   {
-    path: `${baseUrl}/about`,
-    component: () => import("@/layouts/Main.vue"),
-    children: [
-      { path: "", name: "About", component: () => import("@/views/About.vue") },
-    ],
-  },
-  {
-    path: `${baseUrl}/contacts`,
-    component: () => import("@/layouts/Main.vue"),
-    children: [
-      {
-        path: "",
-        name: "Contacts",
-        component: () => import("@/views/Contacts.vue"),
-      },
-    ],
-  },
-  {
     path: `${baseUrl}/tickets`,
     component: () => import("@/layouts/Main.vue"),
     children: [
@@ -44,11 +26,6 @@ export const routes = [
     ],
   },
 ];
-
-// export const router = createRouter({
-//   history: createWebHistory(),
-//   routes: routes,
-// });
 
 export const router = createRouter({
   history: createWebHistory(),
@@ -64,4 +41,3 @@ export const router = createRouter({
   }
 });
 
-// export default router;

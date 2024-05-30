@@ -82,7 +82,6 @@
 
 
 <script lang="ts" setup>
-import { defineComponent, reactive } from 'vue'
 import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
 import Tab2 from "@/components/Tab2.vue";

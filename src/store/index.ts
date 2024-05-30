@@ -1,16 +1,5 @@
 import { createStore } from 'vuex'
 
-// export const store = createStore({
-//     state: {
-//         formData: {}
-//     },
-//     mutations: {
-//         setFormData(state, data) {
-//             state.formData = data
-//         }
-//     }
-// })
-
 interface State {
     formData: {
         SFrom: string;

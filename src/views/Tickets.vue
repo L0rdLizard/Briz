@@ -12,13 +12,10 @@
 <script lang="ts" setup>
 import ExtraTickets from "@/components/ExtraTickets.vue";
 import ChooseTicket from "@/components/ChooseTicket.vue";
-import { defineComponent } from 'vue'
 import { useStore } from 'vuex'
 
 const store = useStore()
 const formData = store.state.formData
-
-// export { formData }
 
 
 </script>
