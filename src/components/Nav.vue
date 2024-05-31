@@ -11,34 +11,48 @@
                     <ul class="navbar-nav mr-auto mt-0 me-0">
                         <li class="mx-4">
                             <div class="dropdown">
-                                <a class="nav-link helio dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link helio" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown">Сервисы и услуги</a>
                                 <div class="dropdown-menu p-0 pt-4 pb-4" aria-labelledby="navbarDropdown">
-                                    <div class="container p-0 pe-4 ps-2">
-                                        <div class="row">
-                                            <div class="col">
-                                                <a class="dropdown-item" href="#">Онлайн-сервисы</a>
-                                                <a class="dropdown-item" href="#">Покупка билетов</a>
-                                                <!-- <div class="dropdown-divider"></div> -->
-                                                <a class="dropdown-item" href="#">Управление бронирование</a>
-                                                <a class="dropdown-item" href="#">Онлайн-регистрация</a>
-                                            </div>
-                                            <div class="col">
-                                                <a class="dropdown-item" href="#">Услуги</a>
-                                                <a class="dropdown-item" href="#">Выбор места</a>
-                                                <a class="dropdown-item" href="#">Перевозка питомцев</a>
-                                                <a class="dropdown-item" href="#">Несопровождаемый ребенок</a>
-                                                <a class="dropdown-item" href="#">Оплата долями</a>
-                                                <a class="dropdown-item" href="#">Групповое бронирование</a>
-                                            </div>
-                                            <div class="col">
-                                                <a class="dropdown-item" href="#">От партнеров</a>
-                                                <a class="dropdown-item" href="#">Отели</a>
-                                                <a class="dropdown-item" href="#">Трансфер</a>
-                                                <a class="dropdown-item" href="#">Авто</a>
-                                                <a class="dropdown-item" href="#">Экскурсии</a>
-                                                <a class="dropdown-item" href="#">Билеты на Аэроэкспресс</a>
-                                                <a class="dropdown-item" href="#">Перевозка грузов</a>
+                                    <div class="dropdown-menuI">
+                                        <div class="container p-0 pe-4 ps-2 pt-3 pb-4">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <a class="dropdown-item helio custom-font1"
+                                                        href="#">Онлайн-сервисы</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Покупка
+                                                        билетов</a>
+                                                    <!-- <div class="dropdown-divider"></div> -->
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Управление
+                                                        бронирование</a>
+                                                    <a class="dropdown-item myriad custom-font2"
+                                                        href="#">Онлайн-регистрация</a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-item helio custom-font1" href="#">Услуги</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Выбор
+                                                        места</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Перевозка
+                                                        питомцев</a>
+                                                    <a class="dropdown-item myriad custom-font2"
+                                                        href="#">Несопровождаемый ребенок</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Оплата
+                                                        долями</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Групповое
+                                                        бронирование</a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-item helio custom-font1" href="#">От
+                                                        партнеров</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Отели</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Трансфер</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Авто</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Экскурсии</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Билеты на
+                                                        Аэроэкспресс</a>
+                                                    <a class="dropdown-item myriad custom-font2" href="#">Перевозка
+                                                        грузов</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -110,6 +124,17 @@ ul {
     list-style: none;
 }
 
+.custom-font1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #134C67;
+}
+
+.custom-font2 {
+    font-size: 18px;
+    color: #134C67;
+}
+
 .nav-font {
     font-size: 18px;
 }
@@ -148,11 +173,34 @@ ul {
     font-weight: 600;
 }
 
+// .dropdown-menu {
+//     border-top-right-radius: 10px;
+//     border-top-left-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+//     border-width: 0px;
+//     margin-top: 29px;
+//     left: 0px;
+//     // right: 180px;
+//     // right: 0px;
+//     width: 56vw;
+//     // width: 207vb;
+//     position: absolute;
+//     z-index: 9999;
+//     background-color: #F5F5F5;
+// }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin: 0px;
+}
+
 .dropdown-menu {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding-top: 10px;
     margin-top: 29px;
     left: -507px;
     right: 0px;
@@ -160,30 +208,40 @@ ul {
     width: 207vb;
     position: absolute;
     z-index: 9999;
+    background-color: rgba(255, 0, 0, 0.0);
+    border-width: 0px;
+}
+
+.dropdown-menuI {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 6px;
+    z-index: 9999;
     background-color: #F5F5F5;
-    
 }
 
-div.dropdown>.btn {
-    transition: transform 0.8s cubic-bezier(0, -0.14, .27, 1.55);
-    transform: rotate(90deg);
-}
+// div.dropdown>.btn {
+//     transition: transform 0.8s cubic-bezier(0, -0.14, .27, 1.55);
+//     transform: rotate(90deg);
+// }
 
-div.dropdown>.btn.show {
-    transform: rotate(270deg);
-}
+// div.dropdown>.btn.show {
+//     transform: rotate(270deg);
+// }
 
-div.dropdown>.dropdown-menu {
-    display: inherit;
-    transform: translate(69px, 19px) scaleX(0);
-    transition: all 0.8s cubic-bezier(0, -0.14, .27, 1.55);
+// div.dropdown>.dropdown-menu {
+//     display: inherit;
+//     transform: translate(69px, 19px) scaleX(0);
+//     transition: all 0.8s cubic-bezier(0, -0.14, .27, 1.55);
 
-}
+// }
 
-div.dropdown>.btn.show+.dropdown-menu {
-    display: inherit;
-    transform: translate(69px, 19px) scaleX(1);
-}
+// div.dropdown>.btn.show+.dropdown-menu {
+//     display: inherit;
+//     transform: translate(69px, 19px) scaleX(1);
+// }
 
 @media (max-width: 1200px) {
     .custom-div2 {
