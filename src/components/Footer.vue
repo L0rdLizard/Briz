@@ -17,48 +17,48 @@
         </section> -->
         <div class="container p-0 pe-4 ps-4">
             <div class="row mt-0 mb-3">
-                <div class="col ">
+                <div class="col">
                     <div>
                         <img src="/logoBriz.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
                     </div>
-                    <div class="mt-2 ms-2">
+                    <div class=" ms-2" style="margin-top: 10px;">
                         <a class="dropdown-item" href="#">Онлайн-сервисы</a>
-                        <a class="dropdown-item" href="#">Покупка билетов</a>
-                        <a class="dropdown-item" href="#">Управление бронирование</a>
-                        <a class="dropdown-item" href="#">Онлайн-регистрация</a>
+                        <a class="dropdown-item myriad" href="#">Покупка билетов</a>
+                        <a class="dropdown-item myriad" href="#">Управление бронирование</a>
+                        <a class="dropdown-item myriad" href="#">Онлайн-регистрация</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">Услуги</a>
+                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">Услуги</a>
                     </div>
                     <div class="mt-1">
                         <a class="dropdown-item" href="#">Выбор места</a>
-                        <a class="dropdown-item" href="#">Еда на гейт</a>
-                        <a class="dropdown-item" href="#">Дполнительное место</a>
-                        <a class="dropdown-item" href="#">Все услуги и сервисы</a>
+                        <a class="dropdown-item myriad" href="#">Еда на гейт</a>
+                        <a class="dropdown-item myriad" href="#">Дполнительное место</a>
+                        <a class="dropdown-item myriad" href="#">Все услуги и сервисы</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">Перед полётом</a>
+                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">Перед полётом</a>
                     </div>
                     <div class="mt-1">
-                        <a class="dropdown-item" href="#">Ручная кладь</a>
-                        <a class="dropdown-item" href="#">Регестрация на рейс</a>
-                        <a class="dropdown-item" href="#">Путешествие с детьми</a>
-                        <a class="dropdown-item" href="#">Вопросы и ответы</a>
+                        <a class="dropdown-item myriad" href="#">Ручная кладь</a>
+                        <a class="dropdown-item myriad" href="#">Регестрация на рейс</a>
+                        <a class="dropdown-item myriad" href="#">Путешествие с детьми</a>
+                        <a class="dropdown-item myriad" href="#">Вопросы и ответы</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 inter-700" href="#">О компании</a>
+                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">О компании</a>
                     </div>
                     <div class="mt-1">
-                        <a class="dropdown-item" href="#">Контакты</a>
-                        <a class="dropdown-item" href="#">Новости</a>
-                        <a class="dropdown-item" href="#">О нас</a>
-                        <a class="dropdown-item" href="#">Направления</a>
+                        <a class="dropdown-item myriad" href="#">Контакты</a>
+                        <a class="dropdown-item myriad" href="#">Новости</a>
+                        <a class="dropdown-item myriad" href="#">О нас</a>
+                        <a class="dropdown-item myriad" href="#">Направления</a>
                     </div>
                 </div>
 
