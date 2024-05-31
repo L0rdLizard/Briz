@@ -289,7 +289,6 @@ const swap = () => {
 @media (max-width: 768px) {
     .grid-container {
         margin-right: 0px;
-
     }
 
 }
@@ -297,8 +296,6 @@ const swap = () => {
 @media (max-width: 550px) {
     .grid-container {
         margin-right: 0px;
-
     }
-
 }
 </style>
