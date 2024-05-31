@@ -2,16 +2,19 @@
     <div class="container-fluid g-0" >
         <!-- <img style="object-fit: cover;" class="img-fluid w-100 min-vh-25 min-vh-md-50 mb-n7 custom-image"
             src="/airplane.png" alt="Photo by Irene Dávila"> -->
-        <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel" style="margin-top: -120px;">
+        <div id="carouselExampleAutoplaying" class="carousel slide custom-image" data-bs-ride="carousel" style="margin-top: 93px;">
             <div class="carousel-inner" >
                 <div class="carousel-item active">
-                    <img src="/airplane.png" class="d-block w-100" alt="...">
+                    <img src="/back6.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/airplane.png" class="d-block w-100" alt="...">
+                    <img src="/back4.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/airplane.png" class="d-block w-100" alt="...">
+                    <img src="/back7.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/back5.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="col carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"

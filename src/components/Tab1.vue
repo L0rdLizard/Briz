@@ -64,7 +64,7 @@
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault1"
                     style="margin-top: 4px;">
-                <label class="form-check-label custom-font inter-400 ms-2" for="flexCheckDefault1"
+                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault1"
                     style="color: #134C67;">
                     Лечу с питомцем
                 </label>
@@ -75,7 +75,7 @@
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault2"
                     style="margin-top: 4px;">
-                <label class="form-check-label custom-font inter-400 ms-2" for="flexCheckDefault2"
+                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault2"
                     style="color: #134C67;">
                     Оплата бонусами
                 </label>
