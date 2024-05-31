@@ -202,10 +202,12 @@ ul {
     border-bottom-right-radius: 10px;
     padding-top: 10px;
     margin-top: 29px;
-    left: -507px;
+    // left: -507px;
+    left: -207px;
     right: 0px;
     // width: 99vw;
-    width: 207vb;
+    // width: 207vb;
+    width: 140vb;
     position: absolute;
     z-index: 9999;
     background-color: rgba(255, 0, 0, 0.0);
@@ -215,11 +217,13 @@ ul {
 .dropdown-menuI {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    padding-left: 40px;
     margin: 6px;
     z-index: 9999;
-    background-color: #F5F5F5;
+    // background-color: #F5F5F5;
+    background-color: rgba(245, 245, 245, 0.95);
 }
 
 // div.dropdown>.btn {

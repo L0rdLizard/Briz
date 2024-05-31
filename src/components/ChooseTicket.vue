@@ -144,7 +144,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font myriad0">
+                <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
                 <p class="custom-font myriad ms-4">10 кг, 40x30x20 см</p>
@@ -323,7 +323,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font myriad0">
+                <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
                 <p class="custom-font myriad ms-4">10 кг, 40x30x20 см</p>
@@ -502,7 +502,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
             <div class="container-liquid col-3 p-2">
-                <p class="mb-0 custom-font myriad0">
+                <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
                 <p class="custom-font myriad ms-4">10 кг, 40x30x20 см</p>
