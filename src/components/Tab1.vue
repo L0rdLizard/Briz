@@ -167,7 +167,6 @@ const input1 = ref<HTMLInputElement | null>(null)
 const input2 = ref<HTMLInputElement | null>(null)
 
 
-
 const swap = () => {
     if (formData.value.SFrom && formData.value.STo) {
         let tempFrom = formData.value.SFrom;
@@ -175,8 +174,6 @@ const swap = () => {
         formData.value.STo = tempFrom;
     }
 }
-
-
 </script>
 
 <style lang="scss" scoped>

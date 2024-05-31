@@ -4,65 +4,7 @@
             <p class="custom-font gunterz mb-0" style="font-size: 30px;">Выбор билета и класса обслуживания</p>
             <p class="mb-0 custom-font helio mt-0">За перелёт в одну сторону на одного взрослого пассажира.</p>
         </div>
-        <!-- <div class="square-container rounded-4 p-1 mt-4">
-            <div class="btn-group container-fluid p-2" role="group" aria-label="Basic radio toggle button group">
-                <button class="rounded-4 left-right-button p-3" id="left-button">
-                    <img class="" src="/chevron-left.png" height="28" alt="Назад">
-                </button>
-
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" value="1">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
-                    for="btnradio1">
-                    <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font myriad">12 июля, пятница</div>
-                        <div class="row justify-content-center align-items-center m-0 myriad">от 3300 ₽</div>
-                    </div>
-                </label>
-
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off" value="2">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
-                    for="btnradio2">
-                    <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font myriad">13 июля, суббота</div>
-                        <div class="row justify-content-center align-items-center m-0 myriad">от 3800 ₽</div>
-                    </div>
-                </label>
-
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off" value="3"
-                    checked>
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
-                    for="btnradio3">
-                    <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font myriad">14 июля, воскресенье
-                        </div>
-                        <div class="row justify-content-center align-items-center m-0 myriad">от 3100 ₽</div>
-                    </div>
-                </label>
-
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio4" autocomplete="off" value="4">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
-                    for="btnradio4">
-                    <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font myriad">15 июля, понедельник
-                        </div>
-                        <div class="row justify-content-center align-items-center m-0 myriad">от 4120 ₽</div>
-                    </div>
-                </label>
-
-                <input type="radio" class="btn-check" name="btnradio1" id="btnradio5" autocomplete="off" value="5">
-                <label class="btn btn-outline-primary rounded-4 custom-btn item inter-400 py-1 px-0 m-1"
-                    for="btnradio5">
-                    <div class="row p-0">
-                        <div class="row justify-content-center align-items-center m-0 date-font myriad">16 июля, вторник</div>
-                        <div class="row justify-content-center align-items-center m-0 myriad">от 3600 ₽</div>
-                    </div>
-                </label>
-
-                <button class="rounded-4 left-right-button p-3" id="right-button">
-                    <img class="" src="/chevron-right.png" height="28" alt="Вперёд">
-                </button>
-            </div>
-        </div> -->
+        
     </div>
 
 </template>
