@@ -22,43 +22,43 @@
                         <img src="/logoBriz.png" alt="" height="56" class="d-inline-block align-text-top mb-0">
                     </div>
                     <div class=" ms-2" style="margin-top: 10px;">
-                        <a class="dropdown-item" href="#">Онлайн-сервисы</a>
-                        <a class="dropdown-item myriad" href="#">Покупка билетов</a>
-                        <a class="dropdown-item myriad" href="#">Управление бронирование</a>
-                        <a class="dropdown-item myriad" href="#">Онлайн-регистрация</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Онлайн-сервисы</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Покупка билетов</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Управление бронирование</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Онлайн-регистрация</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">Услуги</a>
+                        <a class="dropdown-item custom-text1 helio" href="#">Услуги</a>
                     </div>
                     <div class="mt-1">
-                        <a class="dropdown-item" href="#">Выбор места</a>
-                        <a class="dropdown-item myriad" href="#">Еда на гейт</a>
-                        <a class="dropdown-item myriad" href="#">Дполнительное место</a>
-                        <a class="dropdown-item myriad" href="#">Все услуги и сервисы</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Выбор места</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Еда на гейт</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Дполнительное место</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Все услуги и сервисы</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">Перед полётом</a>
+                        <a class="dropdown-item custom-text1 helio" href="#">Перед полётом</a>
                     </div>
                     <div class="mt-1">
-                        <a class="dropdown-item myriad" href="#">Ручная кладь</a>
-                        <a class="dropdown-item myriad" href="#">Регестрация на рейс</a>
-                        <a class="dropdown-item myriad" href="#">Путешествие с детьми</a>
-                        <a class="dropdown-item myriad" href="#">Вопросы и ответы</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Ручная кладь</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Регестрация на рейс</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Путешествие с детьми</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Вопросы и ответы</a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mt-4">
-                        <a class="dropdown-item custom-color-text1 custom-text1 helio" href="#">О компании</a>
+                        <a class="dropdown-item custom-text1 helio" href="#">О компании</a>
                     </div>
                     <div class="mt-1">
-                        <a class="dropdown-item myriad" href="#">Контакты</a>
-                        <a class="dropdown-item myriad" href="#">Новости</a>
-                        <a class="dropdown-item myriad" href="#">О нас</a>
-                        <a class="dropdown-item myriad" href="#">Направления</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Контакты</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Новости</a>
+                        <a class="dropdown-item myriad custom-font" href="#">О нас</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Направления</a>
                     </div>
                 </div>
 
@@ -140,7 +140,13 @@
 }
 
 .custom-text1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #134C67;
+}
+
+.custom-font{
     font-size: 18px;
-    font-weight: 700;
+    color: #134C67;
 }
 </style>
