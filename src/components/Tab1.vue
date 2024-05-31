@@ -15,7 +15,8 @@
             <p class="custom-font myriad">Обратно</p>
         </div>
     </div>
-    <div class="row ms-0 mb-0 gap-4 grid-container" >
+
+    <div class="row ms-0 mb-0 gap-4 grid-container">
         <div class="square-container rounded-4">
             <div class="row">
                 <input v-model="formData.SFrom" type="text" ref="input1"
@@ -30,12 +31,14 @@
             </div>
 
         </div>
+
         <div class=" square-container rounded-4">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
             <input v-model="formData.SDate" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Туда"
                 aria-label="SDate" aria-describedby="basic-addon1">
         </div>
+
         <div class=" square-container rounded-4">
             <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
 
@@ -43,6 +46,7 @@
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Обратно"
                 aria-label="SDateBack" aria-describedby="basic-addon1">
         </div>
+
         <div class="rounded-4 p-0">
             <select class="form-select square-container custom-btn rounded-4 custom-font myriad px-3"
                 id="inputGroupSelect01" style="width: 100%; height: 100%;">
@@ -52,11 +56,51 @@
                 <option class="custom-font myriad" value="3">2+ клиента</option>
             </select>
         </div>
-        <div class="square-container2 rounded-4  d-flex justify-content-center align-items-center">
-            <button @click="submitForm" type="button"
+
+        <div class="square-container2 rounded-4 d-flex justify-content-center align-items-center">
+            <!-- <button @click="submitForm" type="button"
                 class="square-container2 custom-btn  m-0 rounded-4 custom-font myriad"
-                style="width: 100%; height: 100%; color: #FBFBFB;">Найти</button>
+                style="width: 100%; height: 100%; color: #FBFBFB;">Найти
+            </button> -->
+            <button type="button" @click="saveData" class="square-container2 custom-btn m-0 rounded-4 custom-font myriad "
+                data-bs-toggle="modal" data-bs-target="#ticketModal" style="width: 100%; height: 100%; color: #FBFBFB">
+                Найти
+            </button>
         </div>
+
+        <div class="modal fade" id="ticketModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title myriad m-2 p-2">Билеты найдены!</h4>
+                        <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="row modal-body p-4" style="zoom: 100%;">
+                        <div class="col">
+                            <p class="helio mb-0 custom-font2"> Откуда: </p>
+                            <p class="helio mt-0 mb-0 custom-font2"> {{ formData.SFrom }} </p>
+                            <p class="helio mt-0 custom-font2"> {{ formData.SDate }} </p>
+                        </div>
+
+                        <div class="col">
+                            <p class="helio mb-0 custom-font"> Куда: </p>
+                            <p class="helio mt-0 mb-0 custom-font2"> {{ formData.STo }} </p>
+                            <p class="helio mt-0 custom-font2"> {{ formData.SDate }} </p>
+                        </div>
+
+                        <button @click="submitForm" type="button"
+                            class="square-container2 custom-btn close m-0 rounded-4 custom-font2 myriad p-2"
+                            style="width: 100%; height: 100%; color: #FBFBFB;" data-bs-dismiss="modal">Перейти к
+                            билетам
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="row">
 
@@ -86,12 +130,10 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import Tab1 from "@/components/Tab1.vue";
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
-// import { store } from '@/store';
 
-const formData = ({
+const formData = ref({
     SFrom: '',
     STo: '',
     SDate: '',
@@ -101,13 +143,18 @@ const formData = ({
 const store = useStore()
 const router = useRouter()
 
-function submitForm() {
-    store.commit('setFormData', formData)
-    router.push('/tickets')
+function saveData() {
+    store.commit('setFormData', formData.value)
 }
 
-// export { formData, submitForm }
-
+function submitForm() {
+    if (!formData.value.SFrom || !formData.value.STo || !formData.value.SDate) {
+        alert('Поля с вылетом, прибытием и датой должны быть заполнены!')
+        return
+    }
+    store.commit('setFormData', formData.value)
+    router.push('/tickets')
+}
 
 window.onload = function () {
     var element = document.getElementById('btnradio1') as HTMLInputElement;
@@ -119,15 +166,13 @@ window.onload = function () {
 const input1 = ref<HTMLInputElement | null>(null)
 const input2 = ref<HTMLInputElement | null>(null)
 
-const swap = () => {
-    if (input1.value && input2.value) {
-        let temp = input1.value.value
-        input1.value.value = input2.value.value
-        input2.value.value = temp
 
-        let tempData = formData.SFrom
-        formData.SFrom = formData.STo
-        formData.STo = tempData
+
+const swap = () => {
+    if (formData.value.SFrom && formData.value.STo) {
+        let tempFrom = formData.value.SFrom;
+        formData.value.SFrom = formData.value.STo;
+        formData.value.STo = tempFrom;
     }
 }
 
@@ -137,16 +182,20 @@ const swap = () => {
 <style lang="scss" scoped>
 // @import "../scss/variables.scss";
 
+.custom-font2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #134C67;
+}
 
-
-.buttons{
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.each-button{
+.each-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -156,14 +205,14 @@ const swap = () => {
 .grid-container {
     margin-top: 0px;
     display: grid;
-    grid-template-columns: 7fr 2fr 2fr 2fr 4fr; 
+    grid-template-columns: 7fr 2fr 2fr 2fr 4fr;
 }
 
 .grid-container2 {
     margin-top: 18px;
     margin-bottom: -12px;
     display: grid;
-    grid-template-columns: 5fr 2fr 7fr; 
+    grid-template-columns: 5fr 2fr 7fr;
 }
 
 
@@ -230,7 +279,7 @@ const swap = () => {
     }
 
 
-    .square-container2{
+    .square-container2 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
