@@ -7,7 +7,7 @@
             </div>
         </div>
 
-        <div class="ms-4 m-1">
+        <div class="ms-3 m-1">
             <p class="custom-font myriad">Туда</p>
         </div>
 
@@ -19,29 +19,30 @@
         <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
             <div class="row">
                 <input v-model="formData.SFrom" type="text" ref="input1"
-                    class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
+                    class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font myriad"
                     placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
                 <!-- <button type="button" class="col p-0 "></button> -->
                 <button type="button" class="btn col-1 p-0" @click="swap"><span
                         class="bi-arrow-left-right"></span></button>
                 <input v-model="formData.STo" type="text" ref="input2"
-                    class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font inter-400"
+                    class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font myriad"
                     placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
             </div>
 
         </div>
         <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
-            <input v-model="formData.SDate" type="date"
-                class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Туда"
+            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+
+            <input id="datepicker" v-model="formData.SDate" type="date"
+                class="form-control custom-input-group m-0 rounded-4 custom-font myriad no-calendar" placeholder="Туда"
                 aria-label="SDate" aria-describedby="basic-addon1">
         </div>
-        <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <!-- <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки"> -->
+        <div class="square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
+            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
 
-            <input v-model="formData.SDateBack" type="date"
-                class="form-control custom-input-group m-0 rounded-4 custom-font myriad" placeholder="Обратно"
-                aria-label="SDateBack" aria-describedby="basic-addon1">
+            <input v-model="formData.SDateBack" type="date" 
+                class="form-control custom-input-group m-0 rounded-4 custom-font myriad no-calendar"
+                placeholder="Обратно" aria-label="SDateBack" aria-describedby="basic-addon1">
         </div>
         <div class=" square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
             <select class="form-select square-container custom-btn rounded-4 custom-font myriad px-3"
@@ -64,8 +65,7 @@
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault1"
                     style="margin-top: 4px;">
-                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault1"
-                    style="color: #134C67;">
+                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault1" style="color: #134C67;">
                     Лечу с питомцем
                 </label>
             </div>
@@ -75,8 +75,7 @@
             <div class="form-check mt-2">
                 <input class="form-check-input custom-border" type="checkbox" value="" id="flexCheckDefault2"
                     style="margin-top: 4px;">
-                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault2"
-                    style="color: #134C67;">
+                <label class="form-check-label custom-font myriad ms-2" for="flexCheckDefault2" style="color: #134C67;">
                     Оплата бонусами
                 </label>
             </div>
@@ -89,7 +88,7 @@ import { ref } from 'vue'
 import Tab1 from "@/components/Tab1.vue";
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
-// import { store } from '@/store';
+
 
 const formData = ({
     SFrom: '',
@@ -144,14 +143,18 @@ const swap = () => {
 <style lang="scss" scoped>
 // @import "../scss/variables.scss";
 
+input[type="date"].no-calendar::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: 7fr 2fr 2fr 2fr 4fr; 
+    grid-template-columns: 7fr 2fr 2fr 2fr 4fr;
 }
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: 5fr 2fr 7fr; 
+    grid-template-columns: 5fr 2fr 7fr;
 }
 
 @media (max-width: 800px) {
