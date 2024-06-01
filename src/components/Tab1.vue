@@ -20,29 +20,29 @@
             <div class="row">
                 <input v-model="formData.SFrom" type="text" ref="input1"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font myriad"
-                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
+                    placeholder="Откуда" aria-label="Username" aria-describedby="basic-addon1" style="opacity: 0.7;">
                 <!-- <button type="button" class="col p-0 "></button> -->
                 <button type="button" class="btn col-1 p-0" @click="swap"><span
                         class="bi-arrow-left-right"></span></button>
                 <input v-model="formData.STo" type="text" ref="input2"
                     class="col form-control custom-input-group rounded-4 m-0 me-2 ms-2 custom-font myriad"
-                    placeholder=" " aria-label="Username" aria-describedby="basic-addon1">
+                    placeholder="Куда" aria-label="Username" aria-describedby="basic-addon1" style="opacity: 0.7;">
             </div>
 
         </div>
         <div class=" square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки" style="opacity: 0.7;">
 
-            <input id="datepicker" v-model="formData.SDate" type="date"
+            <input v-model="formData.SDate" type="date"
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad no-calendar" placeholder="Туда"
-                aria-label="SDate" aria-describedby="basic-addon1">
+                aria-label="SDate" aria-describedby="basic-addon1" style="opacity: 0.7;">
         </div>
         <div class="square-container rounded-4 p-1 d-flex justify-content-center align-items-center">
-            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки">
+            <img class="ms-2" src="/calendar-month.svg" alt="Описание иконки" style="opacity: 0.7;">
 
             <input v-model="formData.SDateBack" type="date" 
                 class="form-control custom-input-group m-0 rounded-4 custom-font myriad no-calendar"
-                placeholder="Обратно" aria-label="SDateBack" aria-describedby="basic-addon1">
+                placeholder="Обратно" aria-label="SDateBack" aria-describedby="basic-addon1" style="opacity: 0.7;">
         </div>
         <div class=" square-container rounded-4 p-0 d-flex justify-content-center align-items-center">
             <select class="form-select square-container custom-btn rounded-4 custom-font myriad px-3"
