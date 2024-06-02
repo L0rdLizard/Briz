@@ -92,10 +92,10 @@
                     <div class="col container">
                         <button type="button"
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 4560 руб</button>
+                            style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 4560 руб </button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб <br> Для Бриз бонус </button>
                     </div>
                 </div>
             </div>
@@ -132,8 +132,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 5100 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -170,8 +170,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 7230 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -273,8 +273,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 4560 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -311,8 +311,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 5100 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -349,8 +349,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 7230 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -452,8 +452,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 4560 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 4060 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -490,8 +490,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 5100 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px;">от 4800 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
@@ -528,8 +528,8 @@
                             class="square-container2 custom-btn1 p-3 m-2 mb-3 rounded-4 custom-font myriad"
                             style="width: 100%; color: #FBFBFB; min-width: 234px; font-size: 20px;">от 7230 руб</button>
                         <button type="button"
-                            class="square-container2 custom-btn2 p-3 m-2 mb-3 rounded-4 custom-font myriad"
-                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб</button>
+                            class="square-container2 custom-btn2 p-0 m-2 mb-3 rounded-4 custom-font myriad"
+                            style="width: 100%; color: #B7B7B8; font-size: 20px">от 6630 руб <br> Для Бриз бонус</button>
                     </div>
                 </div>
             </div>
