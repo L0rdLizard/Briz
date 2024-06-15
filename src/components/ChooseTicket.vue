@@ -8,7 +8,7 @@
                 <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
-                <p class="mt-3">BR 0235 Boeing 737-800</p>
+                <p class="mt-3 myriad" style="color: #9D9D9F; font-size: 17px;">BR 0235 Boeing 737-800</p>
             </div>
 
             <div class="container-liquid col-5 pt-0">
@@ -66,7 +66,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -76,7 +76,7 @@
                 </p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ">
                 <p class="mt-0 custom-font myriad">
                     <img class="mb-1" src="/circle-x.png" height="20" alt="Описание иконки"> Возврат не доступен
                 </p>
@@ -105,7 +105,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -143,7 +143,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -187,7 +187,7 @@
                 <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
-                <p class="mt-3">BR 0235 Boeing 737-800</p>
+                <p class="mt-3 myriad" style="color: #9D9D9F; font-size: 17px;">BR 0235 Boeing 737-800</p>
             </div>
 
             <div class="container-liquid col-5 pt-0">
@@ -245,7 +245,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -284,7 +284,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -322,7 +322,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -366,7 +366,7 @@
                 <p class="custom-font myriad mt-1 mb-1">Храброво</p>
 
                 <p class="custom-font myriad mt-1 mb-1" style="color: #9D9D9F;"> {{ formData.SDate }} </p>
-                <p class="mt-3">BR 0235 Boeing 737-800</p>
+                <p class="mt-3 myriad" style="color: #9D9D9F; font-size: 17px;">BR 0235 Boeing 737-800</p>
             </div>
 
             <div class="container-liquid col-5 pt-0">
@@ -424,7 +424,7 @@
                 <p class="custom-font gunterz" style="font-size: 28px;">Базовый</p>
             </div>
 
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -463,7 +463,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Продвинутый</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -501,7 +501,7 @@
             <div class="container-liquid col-3">
                 <p class="custom-font gunterz" style="font-size: 28px;">Максимум</p>
             </div>
-            <div class="container-liquid col-3 p-2">
+            <div class="container-liquid col-3 p-2 ps-5">
                 <p class="mb-0 custom-font myriad">
                     <img class="mb-1" src="/circle-check2.png" height="20" alt="Описание иконки"> Ручная кладь 1 место
                 </p>
@@ -597,7 +597,7 @@ const toggleElements3 = () => {
 
 .custom-btn2 {
     border: 3px solid #EF8B77;
-    border-width: 3px;
+    border-width: 0px;
     background-color: #FAFBFF;
 }
 
@@ -607,7 +607,7 @@ const toggleElements3 = () => {
 }
 
 .custom-font {
-    font-size: 18px;
+    font-size: 20px;
     color: #134C67;
 }
 </style>

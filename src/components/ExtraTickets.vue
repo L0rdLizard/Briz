@@ -2,7 +2,7 @@
     <div class="container p-4 rounded-4" style="margin-top: 140px; background-color: white;">
         <div class="container-liquid ms-2">
             <p class="custom-font gunterz mb-0" style="font-size: 30px;">Цены на соседние даты</p>
-            <p class="mb-0 custom-font helio mt-0">За перелёт в одну сторону на одного взрослого пассажира.</p>
+            <p class="mb-0 custom-font helio mt-0">За перелёт в одну сторону на одного взрослого пассажира</p>
         </div>
         <div class="square-container rounded-4 p-1 mt-4">
             <div class="btn-group container-fluid p-2" role="group" aria-label="Basic radio toggle button group">

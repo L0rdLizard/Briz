@@ -35,7 +35,7 @@
                     <div class="mt-1">
                         <a class="dropdown-item myriad custom-font" href="#">Выбор места</a>
                         <a class="dropdown-item myriad custom-font" href="#">Еда на гейт</a>
-                        <a class="dropdown-item myriad custom-font" href="#">Дполнительное место</a>
+                        <a class="dropdown-item myriad custom-font" href="#">Дополнительное место</a>
                         <a class="dropdown-item myriad custom-font" href="#">Все услуги и сервисы</a>
                     </div>
                 </div>

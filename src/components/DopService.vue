@@ -2,8 +2,18 @@
     <div class="container" style="margin-bottom: 100px; margin-top: 30px;">
 
         <div class="row">
-            <p class="m-4 mb-2 custom-text1 custom-color-style3 gunterz">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
-            <p class="m-4 mt-0 custom-text2 custom-color-text2 helio">ДЛЯ ВАШЕГО КОМФОРТНОГО ПУТЕШЕСТВИЯ</p>
+            <div class="row pe-0">
+                <div class="col ">
+                    <p class="m-4 mb-2 custom-text1 custom-color-style3 gunterz">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</p>
+                    <p class="m-4 mt-0 custom-text2 custom-color-text2 helio">ДЛЯ ВАШЕГО КОМФОРТНОГО ПУТЕШЕСТВИЯ</p>
+                </div>
+
+                <div class="col-4 square-container2 rounded-4 p-0 d-flex justify-content-end align-items-center m-5 me-0">
+                    <button type="button" class="square-container2 custom-btn p-2 m-0 rounded-4 custom-font myriad "
+                        style="width: 100%; height: 100%; color: #134C67;">ВСЕ ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</button>
+                </div>
+            </div>
+
             <div class="col-md pb-2">
                 <div class="card w-auto rounded-4 shadow" style="width: 18rem;">
                     <div class="ratio ratio-16x9" style="margin-top: -1px;">
@@ -57,6 +67,7 @@
 
 .custom-text2 {
     font-size: 16px;
+    font-weight: 600;
 }
 
 .bg {
@@ -70,7 +81,15 @@
     // background-color: $ral3022;
 }
 
-.custom-font{
+.custom-font {
     color: #134C67;
+}
+
+.square-container2 {
+    padding: 10px;
+    background-color: #E8E8E8;
+    border-width: 1px;
+    border-color: #134C67;
+    // background-color: $ral3022;
 }
 </style>
